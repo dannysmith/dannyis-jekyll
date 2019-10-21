@@ -1,6 +1,7 @@
 ---
 title: Some New Post
 date: 2019-10-21 18:21:00 Z
+layout: post
 ---
 
 # Some Random Thoughts
