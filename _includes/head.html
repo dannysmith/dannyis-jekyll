@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, minimal-ui, initial-scale=1"
+  />
+
+  <!-- Basics -->
+  <title>{{ page.title || 'Danny Smith' }}</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Danny Smith" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Styles and Feeds -->
+  <link rel="stylesheet" href="https://use.typekit.net/zce3zqj.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+
+  <!-- Feeds -->
+  {%- feed_meta -%}
+
+  <!-- Links -->
+  <link rel="me" href="https://twitter.com/dannysmith" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="96x96"
+    href="favicon.png"
+  />
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Profile -->
+  <meta property="profile:first_name" content="Danny" />
+  <meta property="profile:last_name" content="Smith" />
+  <meta property="profile:username" content="dannysmith" />
+</head>

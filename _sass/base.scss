@@ -1,0 +1,66 @@
+// ==========================================================================
+// Base styles: Global Basics
+// ==========================================================================
+
+//Remove default fieldset styles.
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// Allow only vertical resizing of textareas.
+textarea {
+  resize: vertical;
+}
+
+// Universal heading rendering
+// Remove all margins from Headings
+h1,
+h2,
+h3,
+h4,
+h5 {
+  -webkit-font-feature-settings: 'kern' 1;
+  margin: 0;
+}
+
+// Base styles
+html {
+  box-sizing: border-box;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+}
+
+// ==========================================================================
+// Base styles: Inline Text Treatments
+// ==========================================================================
+
+// Marked Text
+mark {
+  background: var(--color-yellow);
+}
+
+// Highlighting & Selection
+::-moz-selection {
+  background: var(--color-yellow);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--color-yellow);
+  text-shadow: none;
+}

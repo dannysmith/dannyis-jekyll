@@ -19,11 +19,14 @@ email: hi@danny.is
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: 
-url: 
-twitter_username: dannysmith
-github_username: dannysmith
-theme: minima
+baseurl:
+permalink: none
 plugins:
-- jekyll-feed
-- jekyll-optional-front-matter
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
