@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/benbalter/jekyll-optional-front-matter.git
-  revision: e67063031c12d4097e890ab700968df189ec0ef7
+  revision: b227ce0e20937b7ee937263fdea911524fb0dace
   specs:
-    jekyll-optional-front-matter (0.3.1)
+    jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
 
 GEM
