@@ -5,6 +5,7 @@
 - The code lives on Github.
 - Deployed to Netlify.
 - Quick access via [Siteleaf](https://www.siteleaf.com/).
+- Database lives on Airtable and is accessed via Netlify lambda functions
 
 ## Why?
 
@@ -31,12 +32,14 @@ So the solution is a really simple static site generator like Jekyll.
 ## Pages
 
 - Home Page
-- About - many links out to
-- Hire Me - Well written page selling my consulting services.
-- Now - Redirect to Notion now page
+- About
 - Singing
 - Articles - proper, actual articles list (tagged article)
 - Notes - Articles tagged notes
+- Hire Me - Well written page selling my consulting services.
+- Reading - Page which loads JSON from airtable. IFTTT pushes Medium recomends and pocket reads into Airtable (rather than my database)
+- Now - Redirect to Notion now page
+- Uses - Redirect to Notion uses page
 
 ## Why Jekyll?
 
