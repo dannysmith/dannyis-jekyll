@@ -1,0 +1,13 @@
+{
+  "name": "dannyis-jekyll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannysmith/dannyis-jekyll.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
