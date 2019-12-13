@@ -7,11 +7,9 @@ exports.handler = async (event, context, callback) => {
         id: record.id,
         title: record.fields['Title'],
         url: record.fields['URL'],
-        excerpt: record.fields['Excerpt'],
-        imageUrl: record.fields['Image URL'],
-        hasImage: !record.fields['Image URL'].includes('no_image_card.png'),
+        hasImage: false,
         createdAt: record.createdTime,
-        type: 'pocketItem',
+        type: 'mediumClap',
       }
     })
 
@@ -20,7 +18,7 @@ exports.handler = async (event, context, callback) => {
 
   try {
     let response = await fetch(
-      'https://api.airtable.com/v0/app0sEvudHX6svP8C/Pocket%20Items',
+      'https://api.airtable.com/v0/app0sEvudHX6svP8C/Medium%20Claps',
       {
         method: 'GET',
         headers: {
