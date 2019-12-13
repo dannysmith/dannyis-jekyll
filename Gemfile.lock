@@ -16,7 +16,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.11.1)
+    ffi (1.11.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.7.0)
@@ -36,7 +36,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-feed (0.12.1)
+    jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
@@ -60,7 +60,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.12.0)
+    rouge (3.13.0)
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
@@ -78,11 +78,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
-  jekyll-feed (~> 0.12)
+  jekyll-feed (~> 0.13)
   jekyll-optional-front-matter!
   jekyll-redirect-from
   jekyll-seo-tag
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)
-
