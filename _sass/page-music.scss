@@ -1,0 +1,46 @@
+.page-music {
+  h1 {
+    font-size: 20vw;
+    margin-top: -0.3em;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 40rem) {
+      font-size: 24vh;
+      transform: rotate(90deg) translateX(-0.9em) translateY(0.3em);
+      transform-origin: bottom left;
+    }
+  }
+
+  .intro {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+    @media screen and (min-width: 40rem) {
+      margin-left: 11rem;
+      text-align: right;
+    }
+
+    @media screen and (min-width: 60rem) {
+      width: 70%;
+      margin-right: 2rem;
+      margin-left: auto;
+    }
+  }
+
+  .video-grid {
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+
+    @media screen and (min-width: 40rem) {
+      grid-template-columns: 1fr 1fr;
+      margin-left: 20rem;
+    }
+
+    @media screen and (min-width: 110rem) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
