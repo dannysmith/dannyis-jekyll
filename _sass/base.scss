@@ -1,5 +1,5 @@
 // ==========================================================================
-// Base styles: Global Basics
+// Base styles: Global Basics and resets
 // ==========================================================================
 
 //Remove default fieldset styles.
@@ -25,7 +25,7 @@ h5 {
   margin: 0;
 }
 
-// Base styles
+// Base styles for HTML
 html {
   box-sizing: border-box;
   font-variant-ligatures: common-ligatures discretionary-ligatures;
@@ -33,16 +33,59 @@ html {
   scroll-behavior: smooth;
 }
 
+// Inherit box-sizing
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+// Body default styles
 body {
   font-family: var(--font-body);
   background-color: var(--color-cream);
   overflow-x: hidden;
+  min-height: 100vh;
+}
+
+// Remove list styles on ul, ol elements with a class attribute
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+// A elements that don't have a class get default styles
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+// Make images easier to work with
+img {
+  max-width: 100%;
+  display: block;
+}
+
+// Natural flow and rhythm in articles by default
+article > * + * {
+  margin-top: 1em;
+}
+
+// Inherit fonts for inputs and buttons
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+// Remove all animations and transitions for people that prefer not to see them
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 // ==========================================================================
