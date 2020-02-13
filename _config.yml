@@ -1,6 +1,13 @@
----
+# Site Settings
 title: danny.is
 timezone: UTC
+email: hi@danny.is
+description: Danny Smith is a person. I need to complete this.
+plugins:
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 collections:
   posts:
     title: Posts
@@ -8,25 +15,21 @@ collections:
   uploads:
     title: Uploads
     output: true
+include:
+  - _pages
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: default
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: article
-email: hi@danny.is
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-baseurl: 
-permalink: "/writing/:categories/:title:output_ext"
-plugins:
-- jekyll-feed
-- jekyll-optional-front-matter
-- jekyll-seo-tag
-- jekyll-redirect-from
+  - scope:
+      path: ''
+    values:
+      layout: default
+  - scope:
+      path: _pages
+    values:
+      layout: default
+      permalink: /:basename/
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: article
+      permalink: /writing/:slug
