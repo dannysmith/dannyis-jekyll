@@ -7,7 +7,7 @@
 
 * The code lives on Github.
 * Deployed to Netlify.
-* Quick access via [Siteleaf](https://www.siteleaf.com/) or [Forestry.io](forestry.io).
+* Quick access via [Forestry.io](forestry.io).
 * Database lives on Airtable and is accessed via Netlify lambda functions
 
 ## Why?
