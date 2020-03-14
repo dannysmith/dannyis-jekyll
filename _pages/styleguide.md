@@ -2,18 +2,23 @@
 title: Styleguide
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor quam velit, nec condimentum orci tincidunt id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus id justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus id justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
 
 {:.callout}
 This is an example of a **callout**. With some nice stuff in it, including a [link to somewhere](http://danny.is) and some _italic_ text. It also includes a `code snippet`.
 
-Pellentesque gravida magna eu blandit lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
+Pellentesque gravida magna eu blandit lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam HTML iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
 
 ```ruby
 def thing
   return "Hello" if true
 end
 ```
+
+- [X] Callout
+- [ ] Callout inline styles
+- [ ] Insert
+- [ ] Abbr
 
 Donec leo libero, <mark>sodales a quam non, ullamcorper</mark> facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
 
@@ -75,3 +80,9 @@ Cras molestie risus ullamcorper leo vulputate volutpat. Duis id lorem in tellus 
 ### Heading four
 
 ##### Heading Five
+
+
+
+[^1]: This is the footnote, here.
+
+*[HTML]: Hyper Text MArkup Language
