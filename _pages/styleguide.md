@@ -46,11 +46,11 @@ Curabitur turpis mauris, eleifend eget nibh ac, ullamcorper facilisis quam. Fusc
 
 Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros. Praesent vehicula urna velit, nec sodales purus varius a. Vivamus a diam sed augue mollis vehicula. Quisque eleifend finibus nisl. Maecenas mattis viverra lectus, eu ultricies ex malesuada et. Aenean gravida libero sit amet gravida pharetra. Praesent eleifend fermentum faucibus. Etiam at quam id nisi consequat porttitor.
 
-* \[x\] Write the press release
-* \[ \] Update the website
-* \[ \] Contact the media
+<script src="[https://gist.github.com/dannysmith/e743f4c6ac32d6311d517e1332f2f0e3.js](https://gist.github.com/dannysmith/e743f4c6ac32d6311d517e1332f2f0e3.js "https://gist.github.com/dannysmith/e743f4c6ac32d6311d517e1332f2f0e3.js")"></script>
 
 Praesent sed risus egestas, laoreet turpis eu, auctor est. Proin tempor sodales tellus, eu iaculis nibh viverra eu. Fusce imperdiet, tortor vitae iaculis aliquet, eros orci congue ex, eu malesuada justo est non ipsum. Maecenas mi erat, fringilla nec scelerisque et, pulvinar ut quam. Aliquam et purus ut purus consectetur fermentum. Vivamus molestie non sem eu ultrices. Suspendisse lacinia orci a aliquam euismod. Cras semper mi quis odio luctus placerat. Praesent posuere libero a cursus lacinia.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="[https://www.loom.com/embed/0132dbe661b24dd28f42e2ce040f78cc](https://www.loom.com/embed/0132dbe661b24dd28f42e2ce040f78cc "https://www.loom.com/embed/0132dbe661b24dd28f42e2ce040f78cc")" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 * This
 * Is
