@@ -1,5 +1,5 @@
 ---
-title: Website Redesign Part I: The Tech
+title: Website Redesign Part I - The Tech
 ---
 
 Over the years, this website has taken many forms. Initially, it was a Wordpress blog. Then is was a hand-rolled Sinatra app that rendered markdown pages. More recently I've blogged on Medium and at the time of writing, my website is a much simpler Sinatra app.
@@ -61,10 +61,10 @@ On reflection, I don't care about the highlights right now.
 
 But I definitely want to retain the likes from Pocket and Medium. I don't want to maintain a Postgres database though.
 
-Enter Airtable. I can have IFTTT create a record in Airtable whenever I clap for a medium article or archive a pocket item. 
+Enter Airtable. I can have IFTTT create a record in Airtable whenever I clap for a medium article or archive a pocket item.
 
-![](/uploads/2020-03-17-airtable1)
-![](/uploads/2020-03-17-airtable2)
+![](/uploads/2020-03-17-airtable1.png)
+![](/uploads/2020-03-17-airtable2.png)
 
 Although this means I'm dependant on Airtable for this part of my website, I'm okay with that because it's not a core part of my site: if airtable goes down or kill my account then 🤷‍♂️. The advantages well outweigh the overhead of managing my own server and database. Also...
 

@@ -1,15 +1,15 @@
 ---
-title: Website Redesign Part II: A Blank Canvas?
+title: Website Redesign Part II - A Blank Canvas?
 ---
 
 Until now, every time I've redesigned this website it's been because I didn't like how it looked. Every few years, I look at it and feel like it doesn't adequately represent me.
 
-When I started this process, I fully expected to feel the same this time. But having spent a bunch of time staring at it, I think I still like it. 
+When I started this process, I fully expected to feel the same this time. But having spent a bunch of time staring at it, I think I still like it.
 
 More accurately, I still really like these two pages...
 
-![](/uploads/2020-03-17-dasmith1)
-![](/uploads/2020-03-17-dasmith2)
+![](/uploads/2020-03-17-dasmith1.png)
+![](/uploads/2020-03-17-dasmith2.png)
 
 When I designed them back in 2016 I was going for a modern "Swiss" influenced kinda vibe. I think I want to keep that.
 
