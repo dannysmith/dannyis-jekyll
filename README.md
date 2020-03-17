@@ -5,6 +5,16 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/591407d0-3299-4d9f-a929-495f4725de39/deploy-status)](https://app.netlify.com/sites/dannyis/deploys)
 
+
+## Values
+
+* Simple
+* Beautiful
+* Authenntic
+* Content-first
+
+## Tools
+
 * The code lives on Github.
 * Deployed to Netlify.
 * Quick access via [Forestry.io](forestry.io).
@@ -21,16 +31,6 @@ My current website is a sinatra app, and I spend more time updating the dependan
 I want the simplest thing imaginable. And that's HTML/CSS. But I also want to enjoy writing articles, which means writing in markdown.
 
 So the solution is a really simple static site generator like Jekyll.
-
-## Principles
-
-### Requirements and challendges
-
-* As few build-time dependencies as possible
-* Only Vanilla JS and CSS. Use the latest language features.
-* Avoid fallbacks and hacks
-* Fully responsive, including for dark mode.
-* Fully accessible
 
 ## Pages
 

@@ -22,6 +22,7 @@ h3,
 h4,
 h5 {
   -webkit-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
   margin: 0;
 }
 
@@ -31,6 +32,8 @@ html {
   font-variant-ligatures: common-ligatures discretionary-ligatures;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: greyscale;
 }
 
 // Inherit box-sizing
@@ -42,8 +45,8 @@ html {
 
 // Body default styles
 body {
-  font-family: var(--font-body);
-  background-color: var(--color-cream);
+  font-family: var(--font-ui);
+  background-color: var(--color-white);
   overflow-x: hidden;
   min-height: 100vh;
 }
@@ -55,10 +58,25 @@ ol[class] {
   padding-left: 0;
 }
 
+// Remove color and text-decoration from links
+a[class] {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 // A elements that don't have a class get default styles
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  text-decoration-color: var(--light-gray);
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: red;
+    text-decoration-color: red;
+  }
 }
+
+
 
 // Make images easier to work with
 img {

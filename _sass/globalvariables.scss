@@ -7,11 +7,13 @@
   --color-yellow: #ffde59;
   --color-white: #fff;
   --color-black: #444;
+  --light-gray: rgba(0,0,0,0.2);
 
   --color-medium-green: #00ab6b;
   --color-pocket-red: rgba(239, 64, 86, 0.9);
 
   // Font Families
-  --font-body: 'futura-pt', helvetica, sans-serif;
+  --font-ui: Helvetica, sans-serif;
+  --font-copy: Georgia, serif;
   --font-code: 'Inconsolata', monospace;
 }
