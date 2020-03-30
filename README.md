@@ -9,7 +9,7 @@
 
 ```shell
 bundle exec jekyll serve --drafts
-npx browser-sync start --files "css/*.css" --proxy "localhost:4000" --files "_posts/*.*" --files "_drafts/*.*" --files "_pages/*.*" --reloadDelay "2000" --no-open --no-notify
+npx browser-sync start --files "scss/*.scss" --proxy "localhost:4000" --files "_posts/*.*" --files "_drafts/*.*" --files "_pages/*.*" --reloadDelay "2000" --no-open --no-notify
 ```
 
 ## Values
@@ -26,37 +26,28 @@ npx browser-sync start --files "css/*.css" --proxy "localhost:4000" --files "_po
 - Quick access via [Forestry.io](forestry.io).
 - Database lives on Airtable and is accessed via Netlify lambda functions
 
-## Why?
+## Article Series
 
-I kinda want to use ghost and gatsby for this ebcause it's cool and fun. I love the ghost editor for ease of writing. I also kinda want to use Medium because it's easy and most of my articles live there.
+1. The Why & Technical Decisions
+1. Stuff to Keep, Principles and Goals
+1. A base to start from (CSS)
+1. IA, Content map and Conceptual Hierarchy
+1. Trypeface choice and setting body copy
+1. A type hierarchy
+1. A vertical grid (a shitty baseline grid).
+1. Inspiration - Examples of stuff I like. Visual shit. No CSS.
+1. Defining the Grid
+1. Making the Grid (CSS)
 
-But then I realise that in both these cases I'm handing my content off to somewhere else, and paying for something that should be simple and free.
+## Sitemap
 
-My current website is a sinatra app, and I spend more time updating the dependancies that I do messing with it because it is over-engineered. My current blog is medium and I don't own my content there.
-
-I want the simplest thing imaginable. And that's HTML/CSS. But I also want to enjoy writing articles, which means writing in markdown.
-
-So the solution is a really simple static site generator like Jekyll.
-
-## Pages
-
-- Home Page
+- Home
 - About
+- Now
 - Singing
-- Articles - proper, actual articles list (tagged article)
-- Notes - Articles tagged notes
-- Hire Me - Well written page selling my consulting services.
+- Writing
+- Books
+- Notes
+- Hire Me
 - Reading - Page which loads JSON from airtable. IFTTT pushes Medium recomends and pocket reads into Airtable (rather than my database)
-- Now - Redirect to Notion now page
 - Uses - Redirect to Notion uses page
-
-## Why Jekyll?
-
-- It's _almost_ plain HTML and CSS. That makes it future-proof.
-- It actually generates plain HTML and CSS. Which makes it [web scale](https://www.youtube.com/watch?v=b2F-DItXtZs).
-- It's ruby under the hood, which is nice.
-- It has few dependancies.
-
-```
-
-```
