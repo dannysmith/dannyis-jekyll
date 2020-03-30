@@ -9,27 +9,27 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-- scope:
-    path: _pages
-  values:
-    layout: default
-    permalink: "/:basename/"
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: article
-    permalink: "/writing/:slug"
+  - scope:
+      path: ''
+    values:
+      layout: default
+  - scope:
+      path: _pages
+    values:
+      layout: default
+      permalink: '/:basename/'
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: article
+      permalink: '/writing/:slug'
 email: hi@danny.is
 description: Danny Smith is a person. I need to complete this.
 plugins:
-- jekyll-feed
-- jekyll-optional-front-matter
-- jekyll-seo-tag
-- jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 include:
-- _pages
+  - _pages
