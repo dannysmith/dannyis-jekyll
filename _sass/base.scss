@@ -112,8 +112,14 @@ a:not([class]) {
   text-decoration-color: blue;
   text-decoration-thickness: 1px;
 
-  &:hover {
+  &:hover,
+  &:active {
     color: red;
     text-decoration-color: red;
+  }
+
+  &:visited {
+    color: red;
+    text-decoration-color: none;
   }
 }
