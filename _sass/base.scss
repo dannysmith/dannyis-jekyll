@@ -109,7 +109,7 @@ a[class] {
 // Links without a class get default styles
 a:not([class]) {
   text-decoration-skip-ink: auto;
-  text-decoration-color: blue;
+  text-decoration-color: rgba(0, 0, 0, 0.3);
   text-decoration-thickness: 1px;
 
   &:hover,
