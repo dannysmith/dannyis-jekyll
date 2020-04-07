@@ -28,6 +28,8 @@ npx browser-sync start --files "scss/*.scss" --proxy "localhost:4000" --files "_
 
 ## Article Series
 
+The goal is to just write up my process, so don't be bound by this.
+
 1. The Why & Technical Decisions
 1. Stuff to Keep, Principles and Goals
 1. A base to start from (CSS)
@@ -35,9 +37,21 @@ npx browser-sync start --files "scss/*.scss" --proxy "localhost:4000" --files "_
 1. Trypeface choice and setting body copy
 1. A type hierarchy
 1. A vertical grid (a shitty baseline grid).
+1. Styling With Simplicity (making it look nice with no design: homepage, "redesign banner", etc)
 1. Inspiration - Examples of stuff I like. Visual shit. No CSS.
-1. Defining the Grid
+1. Defining the Grid (Sketch, not CSS)
 1. Making the Grid (CSS)
+
+### Future Ideas
+
+Be even less bound by these. Do what's fun and write about it.
+
+* Dark Mode
+* Reading time calculation (plugin?)
+* Share data (images/metadata when embedded in places)
+* Quotes, immages, callouts etc
+* Code blocks
+* Fancy in-article image layout
 
 ## Sitemap
 
@@ -47,7 +61,7 @@ npx browser-sync start --files "scss/*.scss" --proxy "localhost:4000" --files "_
 - Singing
 - Writing
 - Books
-- Notes
+- Notes (Not sure how to do this yet. Perhaps a seperate collection?)
 - Hire Me
 - Reading - Page which loads JSON from airtable. IFTTT pushes Medium recomends and pocket reads into Airtable (rather than my database)
 - Uses - Redirect to Notion uses page
