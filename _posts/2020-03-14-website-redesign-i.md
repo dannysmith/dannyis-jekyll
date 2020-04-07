@@ -26,6 +26,8 @@ Before going any further with the tech, I need some values and principles to gui
 
 ### Values
 
+After some time with a pen and paper, these seem appropriate:
+
 * Simple
 * Beautiful
 * Authentic
@@ -33,7 +35,7 @@ Before going any further with the tech, I need some values and principles to gui
 
 ### Engineering Principles
 
-Based on these values, I can use the following principles to guide my decisions:
+Based on these values, I've pulled out some principles to guide my decisions on tech stack:
 
 1. As few dependencies as possible (both build-time and run-time dependancies).
 2. Use defaults wherever possible.
@@ -41,13 +43,13 @@ Based on these values, I can use the following principles to guide my decisions:
 4. Do not over-abstract. Avoid fallbacks, polyfills and hacks.
 5. Bake accessibility in.
 
-I'll come back to these in future articles.
+I'll come back to these regularly.
 
 ## Jekyll Plugins
 
-It's tempting to install a whole bunch of plugins – there are some great ones out there. But every plugin is a build-time dependancy, so I settled on just three.
+It's tempting to install a whole bunch of plugins – there are some great ones out there. But every plugin is a build-time dependancy, so I've settled on just three.
 
-* **[Optional Front Matter](https://github.com/benbalter/jekyll-optional-front-matter)**. This makes the front-matter optional, obviously.
+* **[Optional Front Matter](https://github.com/benbalter/jekyll-optional-front-matter)**. This makes the front-matter optional, obviously. I want it so that my HTML pages don't need any front matter.
 * **[SEO Tag](https://github.com/jekyll/jekyll-seo-tag)**. This adds a bunch of SEO-related meta tags in a pretty intelligent way.
 * **[Redirect From](https://github.com/jekyll/jekyll-redirect-from)**. This lets me set up redirects in a super-intuitive way. I can crate an empty page or post, specify the redirect in the front matter and be done with it.
 
@@ -85,7 +87,8 @@ So here's where we're at so far...
 
 #### Reading List Stuff
 * Airtable - data store.
-* IFTTT - piping stuff into Airtable.
+* Netlify Functions - accessing Airtable.
+* IFTTT - piping stuff into Airtable from elsewhere.
 
 ## What about the writing experience?
 
