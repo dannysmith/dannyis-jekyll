@@ -6,7 +6,7 @@ I write on this **website**, and publish a regular **newsletter** on remote work
 
 I’m Technology Director at **[RED Academy](https://redacademy.com/)**.
 
-I consult on remote working, eremote work, leadership, process and learning with my friends at **Better at Work**.
+I consult on remote working, leadership, process and learning with my friends at **Better at Work**.
 
 I'm slowly building **Foundry Academy**.
 
