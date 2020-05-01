@@ -65,12 +65,13 @@ The goal is to just write up my process, so don't be bound by this.
 1. [x] The Why & Technical Decisions
 1. [x] Stuff to Keep, Principles and Goals
 1. [x] A base to start from (CSS)
-1. [ ] IA, Content map and Conceptual Hierarchy
-1. [ ] Trypeface choice and setting body copy
+1. [x] Pages and URLs
+1. [ ] Typesetting
 1. [ ] A type hierarchy
 1. [ ] A vertical grid (a shitty baseline grid).
 1. [ ] Styling With Simplicity (making it look nice with no design: homepage, "redesign banner", etc)
 1. [ ] Inspiration - Examples of stuff I like. Visual shit. No CSS.
+1. [ ] Content Types
 1. [ ] Defining the Grid (Sketch, not CSS)
 1. [ ] Making the Grid (CSS)
 
