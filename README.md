@@ -66,35 +66,12 @@ The goal is to just write up my process, so don't be bound by this.
 1. [x] Stuff to Keep, Principles and Goals
 1. [x] A base to start from (CSS)
 1. [x] Pages and URLs
-1. [ ] Typesetting
-1. [ ] A type hierarchy
+1. [ ] Choosing typefaces
+1. [ ] A responsive type hierarchy
 1. [ ] A vertical grid (a shitty baseline grid).
-1. [ ] Styling With Simplicity (making it look nice with no design: homepage, "redesign banner", etc)
+1. [ ] Adding some niceties (drop caps, first line etc).
+1. [ ] Styling With Simplicity (making it look nice with no design: homepage, "redesign banner", etc).
 1. [ ] Inspiration - Examples of stuff I like. Visual shit. No CSS.
-1. [ ] Content Types
-1. [ ] Defining the Grid (Sketch, not CSS)
-1. [ ] Making the Grid (CSS)
-
-### Future Ideas
-
-Be even less bound by these. Do what's fun and write about it.
-
-- Dark Mode
-- Reading time calculation (plugin?)
-- Share data (images/metadata when embedded in places)
-- Quotes, immages, callouts etc
-- Code blocks
-- Fancy in-article image layout
-
-## Sitemap
-
-- Home
-- About
-- Now
-- Singing
-- Writing
-- Books
-- Notes (Not sure how to do this yet. Perhaps a seperate collection?)
-- Hire Me
-- Reading - Page which loads JSON from airtable. IFTTT pushes Medium recomends and pocket reads into Airtable (rather than my database)
-- Uses - Redirect to Notion uses page
+1. [ ] Content Types.
+1. [ ] Defining the Grid (Figma, not CSS).
+1. [ ] Making the Grid (CSS).
