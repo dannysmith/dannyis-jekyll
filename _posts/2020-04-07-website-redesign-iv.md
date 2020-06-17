@@ -2,11 +2,11 @@
 title: Website Redesign Part IV - Pages and URLs
 ---
 
-I bought this domain specifically so I could have cool URLs like `danny.is/doingsomething`, so I have some URLs that I definitely want to use just because they are cool. These provide a good starting point for deciding what pages I should have.
+I bought this domain specifically so I could have cool URLs like `danny.is/doingsomething`, so definitely want to use certain URLs, regardless of content. These provide a good starting point for deciding what pages I might want.
 
 #### danny.is
 
-The homepage, obviously. Since the last redesign this has just shown a list of links to other pages and external services, but I'll probably change that with this redesign.
+The homepage, obviously. Since the last redesign this has just shown a list of links to other pages and external services, but I'll probably change that a bit with this redesign.
 
 #### danny.is/about
 
@@ -18,7 +18,7 @@ A very simple description of what I'm doing at the moment. Inspired [by this](ht
 
 #### danny.is/writing
 
-My writing. This will definitely include my writing on this site, but I might also include stuff I write elsewhere.
+An index of my writing. This will definitely include my writing on this site, but I might also include stuff I write elsewhere.
 
 #### danny.is/reading
 
@@ -38,7 +38,7 @@ Forwards to a [notion page where you can book a meeting with me](https://www.not
 
 ## Other URLs
 
-I'll also set up forwards for LinkedIn and youtube, since I find it hard to remember the URL structures they use:
+I've also set up forwards for LinkedIn and youtube, since I find it hard to remember their URLs:
 
 - danny.is/linkedin → My LinkedIn profile
 - danny.is/youtube → My Youtube channel
@@ -55,12 +55,12 @@ A page detailing my coaching work. I expect this will be the only page where I c
 
 ## Pages I need to design
 
-Ignoring the forwards and the Now Page, I've got 8 pages I need to consider when it comes to design.
+Ignoring the forwards and the _now_ page, that's **eight** pages I need to consider when it comes to design.
 
 - Homepage
 - About
-- Writing
-- Article
+- Writing (index)
+- Writing (article)
 - Reading
 - Looking for Work
 - Coaching
