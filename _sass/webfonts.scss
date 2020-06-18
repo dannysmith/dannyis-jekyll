@@ -1,0 +1,611 @@
+/* ====================================== Literata Static Fonts ======================================*/
+
+/* Standard Regular, Italic, Bold, Bold Italic */
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-12ptRegular.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptRegular.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-12ptItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-12ptBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-12ptBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptBoldItalic.woff')
+      format('woff');
+}
+
+/* Literata (regular) additional weights - optimized for body copy up to 30px or so */
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-12ptLight.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-12ptLightItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptLightItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-12ptMedium.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-12ptMediumItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptMediumItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-12ptSemiBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptSemiBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-12ptSemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptSemiBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-12ptExtraBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptExtraBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-12ptExtraBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-12ptExtraBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+/* Literata Caption optimized for 12px or less */
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-7ptRegular.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptRegular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-7ptItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-7ptMedium.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-7ptMediumItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptMediumItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-7ptSemiBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptSemiBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-7ptSemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptSemiBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-7ptBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Caption';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-7ptBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-7ptBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+/* Literata Deck optimized for text from 30px to 48px or so */
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-36ptLight.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptLight.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-36ptLightItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptLightItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-36ptRegular.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptRegular.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-36ptItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-36ptMedium.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-36ptMediumItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptMediumItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-36ptSemiBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptSemiBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-36ptSemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptSemiBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-36ptBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-36ptBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-36ptExtraBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptExtraBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Deck';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-36ptExtraBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-36ptExtraBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+/* Literata Display optimized for text from 48px or so and up */
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/literata/static/woff2/Literata-72ptExtraLight.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptExtraLight.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 200;
+  src: url('../fonts/literata/static/woff2/Literata-72ptExtraLightItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptExtraLightItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-72ptLight.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptLight.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/literata/static/woff2/Literata-72ptLightItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptLightItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-72ptRegular.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptRegular.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/literata/static/woff2/Literata-72ptItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-72ptMedium.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/literata/static/woff2/Literata-72ptMediumItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptMediumItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-72ptSemiBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptSemiBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/literata/static/woff2/Literata-72ptSemiBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptSemiBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-72ptBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/literata/static/woff2/Literata-72ptBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-72ptExtraBold.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptExtraBold.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 800;
+  src: url('../fonts/literata/static/woff2/Literata-72ptExtraBoldItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptExtraBoldItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/literata/static/woff2/Literata-72ptBlack.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptBlack.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Display';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/literata/static/woff2/Literata-72ptBlackItalic.woff2')
+      format('woff2'),
+    url('../fonts/literata/static/woff/Literata-72ptBlackItalic.woff')
+      format('woff');
+  font-display: swap;
+}
+
+/* ====================================== Literata Variable Fonts ======================================*/
+
+@font-face {
+  font-family: 'Literata Variable';
+  font-style: normal;
+  font-weight: 200 900;
+  src: url('../fonts/literata/variable/woff2/Literata-Roman-VF.woff2')
+      format('woff2 supports variations'),
+    url('../fonts/literata/variable/woff2/Literata-Roman-VF.woff2')
+      format('woff2-variations');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata Variable';
+  font-style: italic;
+  font-weight: 200 900;
+  src: url('../fonts/literata/variable/woff2/Literata-Italic-VF.woff2')
+      format('woff2 supports variations'),
+    url('../fonts/literata/variable/woff2/Literata-Italic-VF.woff2')
+      format('woff2-variations');
+  font-display: swap;
+}
+
+/* ====================================== Lora Static Fonts ======================================*/
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/lora/static/woff2/Lora-Bold.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../fonts/lora/static/woff2/Lora-BoldItalic.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../fonts/lora/static/woff2/Lora-Italic.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/lora/static/woff2/Lora-Medium.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../fonts/lora/static/woff2/Lora-MediumItalic.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/lora/static/woff2/Lora-Regular.woff2') format('woff2'),
+    url('../fonts/lora/static/woff/Lora-Regular.woff') format('woff');
+}
+
+/* ====================================== Lora Variable Fonts ======================================*/
+
+@font-face {
+  font-family: 'Lora Variable';
+  font-style: normal;
+  font-weight: 200 900;
+  src: url('../fonts/lora/variable/woff2/Lora-Roman-VF.woff2')
+      format('woff2 supports variations'),
+    url('../fonts/lora/variable/woff2/Lora-Roman-VF.woff2')
+      format('woff2-variations');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora Variable';
+  font-style: italic;
+  font-weight: 200 900;
+  src: url('../fonts/lora/variable/woff2/Lora-Italic-VF.woff2')
+      format('woff2 supports variations'),
+    url('../fonts/lora/variable/woff2/Lora-Italic-VF.woff2')
+      format('woff2-variations');
+  font-display: swap;
+}
