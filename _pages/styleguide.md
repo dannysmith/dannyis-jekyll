@@ -1,7 +1,8 @@
 ---
 title: Styleguide
-layout: article
+layout: essay
 ---
+
 Lorem ipsum bardo dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus id justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
 
 {:.callout}
@@ -15,7 +16,7 @@ def thing
 end
 ```
 
-- [X] Callout
+- [x] Callout
 - [ ] Callout inline styles
 - [ ] Insert
 - [ ] Abbr
@@ -32,10 +33,10 @@ Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus
 
 Suspendisse vestibulum turpis metus, ac posuere purus lobortis eu. Nam in vestibulum odio, eget sodales enim. Pellentesque semper congue ex. Sed molestie porttitor ipsum, sed accumsan sem aliquet id. Aliquam rhoncus nisi convallis diam efficitur cursus. Donec id quam vel felis laoreet malesuada. Aenean laoreet ligula sed libero pretium hendrerit. Etiam in erat dolor. Sed diam leo, semper ac rhoncus sodales, posuere ac neque. Curabitur vitae velit ut sapien finibus imperdiet. Vestibulum consequat turpis sed enim elementum ultricies. Donec quis diam scelerisque, tincidunt urna congue, lacinia mauris. Nulla facilisi.
 
-| Syntax | Description |
-| --- | --- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
 
@@ -57,13 +58,13 @@ Praesent sed risus egestas, laoreet turpis eu, auctor est. Proin tempor sodales 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/0132dbe661b24dd28f42e2ce040f78cc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-* This
-* Is
-* An
-  * With a sublist
-  * Of
-  * Things
-* Unordered list
+- This
+- Is
+- An
+  - With a sublist
+  - Of
+  - Things
+- Unordered list
 
 1. This
 2. Is
@@ -81,8 +82,6 @@ Cras molestie risus ullamcorper leo vulputate volutpat. Duis id lorem in tellus 
 
 ##### Heading Five
 
-
-
 [^1]: This is the footnote, here.
 
-*[HTML]: Hyper Text MArkup Language
+\*[HTML]: Hyper Text MArkup Language

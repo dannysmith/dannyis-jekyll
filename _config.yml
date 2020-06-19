@@ -22,7 +22,7 @@ defaults:
       path: _posts
       type: posts
     values:
-      layout: article
+      layout: essay
       permalink: '/writing/:slug'
 email: hi@danny.is
 description: Danny Smith is a person. I need to complete this.

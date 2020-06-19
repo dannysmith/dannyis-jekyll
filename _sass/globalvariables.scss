@@ -1,19 +1,35 @@
 // Variables should be set on root.
 
 :root {
+  // ===================== Colours =====================
   --color-red: rgb(255, 30, 28);
   --color-red-trans50: rgb(255, 30, 28, 0.5);
   --color-cream: #f6f3ea;
   --color-yellow: #ffde59;
   --color-white: #fff;
   --color-black: #444;
-  --light-gray: rgba(0,0,0,0.2);
+  --light-gray: rgba(0, 0, 0, 0.2);
 
   --color-medium-green: #00ab6b;
   --color-pocket-red: rgba(239, 64, 86, 0.9);
 
-  // Font Families
-  --font-ui: Helvetica, sans-serif;
-  --font-copy: Georgia, serif;
+  // ===================== Font Families =====================
+
+  // UI Fonts
+  --font-ui: 'Futura', sans-serif;
+
+  //Essay Fonts
+
+  --font-essay: 'Literata', Georgia, 'Times New Roman', serif;
+  @supports (font-variation-settings: normal) {
+    --font-essay: 'Literata Variable', Georgia, 'Times New Roman', serif;
+  }
+
+  // --font-essay: 'Lora', Georgia, 'Times New Roman', serif;
+  // @supports (font-variation-settings: normal) {
+  //   --font-essay: 'Lora Variable', Georgia, 'Times New Roman', serif;
+  // }
+
+  // Code Fonts
   --font-code: 'Inconsolata', monospace;
 }

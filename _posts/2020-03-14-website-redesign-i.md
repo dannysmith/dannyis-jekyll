@@ -14,7 +14,7 @@ Time to simplify things, then. I need a static site.
 
 Why a static site?
 
-If my site is just HTML and CSS then it's easy to change, even if I've not touched it in years. There are no complex mental models to remember, no dependancies to manage, no security vulnerabilities to patch. I can also deploy it anywhere. I'm not reliant on any specific third parties. Static sites are also [web scale](https://www.youtube.com/watch?v=b2F-DItXtZs)by default when hosted in the right place.
+If my site is just HTML and CSS then it's easy to change, even if I've not touched it in years. There are no complex mental models to remember, no dependancies to manage, no security vulnerabilities to patch. I can also deploy it anywhere. I'm not reliant on any specific third parties. Static sites are also [web scale](https://www.youtube.com/watch?v=b2F-DItXtZs) by default when hosted in the right place.
 
 So that's my starting point... plain old HTML and CSS, deployed to Github Pages. When I want to write a new article I just make an HTML page. Simple.
 
@@ -28,10 +28,10 @@ Before going any further with the tech, I need some values and principles to gui
 
 After some time with a pen and paper, these seem appropriate:
 
-* Simple
-* Beautiful
-* Authentic
-* Content-first
+- Simple
+- Beautiful
+- Authentic
+- Content-first
 
 ### Engineering Principles
 
@@ -49,9 +49,9 @@ I'll come back to these regularly.
 
 It's tempting to install a whole bunch of plugins – there are some great ones out there. But every plugin is a build-time dependancy, so I've settled on just three.
 
-* **[Optional Front Matter](https://github.com/benbalter/jekyll-optional-front-matter)**. This makes the front-matter optional, obviously. I want it so that my HTML pages don't need any front matter.
-* **[SEO Tag](https://github.com/jekyll/jekyll-seo-tag)**. This adds a bunch of SEO-related meta tags in a pretty intelligent way.
-* **[Redirect From](https://github.com/jekyll/jekyll-redirect-from)**. This lets me set up redirects in a super-intuitive way. I can crate an empty page or post, specify the redirect in the front matter and be done with it.
+- **[Optional Front Matter](https://github.com/benbalter/jekyll-optional-front-matter)**. This makes the front-matter optional, obviously. I want it so that my HTML pages don't need any front matter.
+- **[SEO Tag](https://github.com/jekyll/jekyll-seo-tag)**. This adds a bunch of SEO-related meta tags in a pretty intelligent way.
+- **[Redirect From](https://github.com/jekyll/jekyll-redirect-from)**. This lets me set up redirects in a super-intuitive way. I can crate an empty page or post, specify the redirect in the front matter and be done with it.
 
 ## But what about dynamic stuff?
 
@@ -65,30 +65,32 @@ But I definitely want to retain the likes from Pocket and Medium. I don't want t
 
 Enter Airtable. I can have IFTTT create a record in Airtable whenever I clap for a medium article or archive a pocket item.
 
-![](/uploads/2020-03-17-airtable1.png)
-![](/uploads/2020-03-17-airtable2.png)
+![Airtable Screenshot](/uploads/2020-03-17-airtable1.png)
+![Airtable Screenshot](/uploads/2020-03-17-airtable2.png)
 
 Although this means I'm dependant on Airtable for this part of my website, I'm okay with that because it's not a core part of my site: if airtable goes down or kill my account then 🤷‍♂️. The advantages well outweigh the overhead of managing my own server and database. Also...
 
-* It's easy to pipe data into Airtable from all sorts of places.
-* It's easy to edit data in airtable, especially because I use it a bunch anyway.
-* It has a very nice API.
+- It's easy to pipe data into Airtable from all sorts of places.
+- It's easy to edit data in airtable, especially because I use it a bunch anyway.
+- It has a very nice API.
 
 There is one problem, though. For my javascript to access this data it needs my Airtable API key. I can't just bung that in my code because then everyone would have it. This is something Netlify's [lambda functions](https://www.netlify.com/products/functions/) are great at: they can act as an intermediate layer between my client-side javascript and the Airtable API.
 
-Netlify also makes a lot of sense for hosting: it has some bells and whistles Github Pages lack.
+Netlify also makes a lot of sense for hosting: it has some bells and whistles Github Pages lacks.
 
 So here's where we're at so far...
 
 #### Core Stuff
-* Just HTML, CSS and Markdown.
-* Jekyll (with a couple of plugins).
-* Netlify for hosting.
+
+- Just HTML, CSS and Markdown.
+- Jekyll (with a couple of plugins).
+- Netlify for hosting.
 
 #### Reading List Stuff
-* Airtable - data store.
-* Netlify Functions - accessing Airtable.
-* IFTTT - piping stuff into Airtable from elsewhere.
+
+- Airtable - data store.
+- Netlify Functions - accessing Airtable.
+- IFTTT - piping stuff into Airtable from elsewhere.
 
 ## What about the writing experience?
 

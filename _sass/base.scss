@@ -4,7 +4,7 @@
 
 html {
   box-sizing: border-box;
-  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
@@ -44,6 +44,9 @@ h2,
 h3,
 h4,
 h5 {
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+
+  // Kerning is on by default for most fonts but we want to make sure it's *always* on for headings, whatever the typeface.
   -webkit-font-feature-settings: 'kern' 1;
   font-feature-settings: 'kern' 1;
   margin: 0;

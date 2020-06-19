@@ -1,5 +1,8 @@
-article > * {
-  font-family: var(--font-copy);
+.essay {
+  font-family: var(--font-essay);
+}
+
+.essay > * {
   line-height: 1.5;
   max-width: 33rem;
   margin-left: auto;
@@ -7,6 +10,6 @@ article > * {
 }
 
 // Natural flow margin
-article > * + * {
+.essay > * + * {
   margin-top: 1em;
 }

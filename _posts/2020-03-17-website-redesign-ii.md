@@ -19,11 +19,11 @@ But let's take a step back for a second and think about my goals.
 
 ### Goals of this site
 
-First and foremost, it's a personal expression of me. It's a place for me to **have fun**: both with my writing and with design & CSS. So it's okay of it's a bit goofy or stuff is a bit broken sometimes.
+First and foremost, it's a personal expression of me. It's a place for me to **have fun**: both with my writing and with design & CSS. So it's okay if it's a bit goofy or stuff is a bit broken sometimes.
 
 But it also represents me professionally.
 
-Thankfully, in both cases the primary goal remains the same. **To help the reader understand me. Danny.**
+Thankfully, in both cases the primary goal remains the same. **To help the reader understand me – Danny.**
 
 If I put my UX hat on for a minute, there is a [Job To Be Done](https://jtbd.info/) that I should consider. A subset of visitors to this site are trying to find out if I'm the right person to help them with something.
 
@@ -33,7 +33,7 @@ The last thing I want is for my personal site to be some sort of super-optimised
 
 Of course, there are also the random folk who come here to read the stuff I write. They probably just wanna read in peace.
 
-If I think in terms of actors and their goals:
+So if I think in terms of actors and their goals:
 
 - **Danny**
   - Express himself freely and without constraint.
@@ -44,11 +44,9 @@ If I think in terms of actors and their goals:
   - (Perhaps) be notified when Danny writes some new words.
 - **Person checking Danny out**
   - Find out if Danny is the right person to help them.
-  - Contact him.
+  - Contact Danny.
 
-That feels like a good set of goals to start with. But they come in a strict order of priority: Danny &rarr; Interested Reader &rarr; Person Checking Danny Out.
-
-This is my personal website, after all.
+This feels like a good set of goals to start with. But they come in a strict order of priority: Danny &rarr; Interested Reader &rarr; Person Checking Danny Out. This is my personal website, after all.
 
 So here's a rule I'm gonna try to stick to:
 
@@ -59,9 +57,9 @@ So here's a rule I'm gonna try to stick to:
 As I said in [Part I]({% post_url 2020-03-14-website-redesign-i %}), I'm doing this primarily for two reasons:
 
 1. I want a simpler, more technology-agnostic website.
-2. I want to write on my own website, not on Medium.
+2. I want to write here, not on Medium.
 
-Combined with the website goals up there ☝️, I think I'm trying to achieve the following here:
+Combined with the website goals up there ☝️, I think I'm trying to achieve the following:
 
 1. Represent myself more authentically.
 2. Simplify my own mental model for who I am and what I do, as expressed through this site.
@@ -71,11 +69,7 @@ Combined with the website goals up there ☝️, I think I'm trying to achieve t
 
 I suspect (2) and (3) mean better content organisation and hierarchy, along with some self-imposed constraints. (4) probably means better typography and more focus on the tiny details. As for (5) – that's probably just a page of its own.
 
-The first one (1) is interesting though. I said earlier that I like the current design. That for the first time ever it still feels authentic when _Redesign Time_ rolls around.
-
-And so it does.
-
-At least what there is of it.
+The first one is interesting though. I said earlier that I like the current design. For the first time ever it still feels authentic now that _Redesign Time_ has rolled up. And so it does. At least what there is of it.
 
 And perhaps that's the problem. My current site is too sparse. Too sanitised. Sure, it has some wacky angles and stuff. But it has no _substance_.
 
@@ -105,9 +99,9 @@ Back in [Part I]({% post_url 2020-03-14-website-redesign-i %}) I listed four val
 They still feel right to me. And they now have bit more flesh on them.
 
 {:.callout}
-Now feels like a good time to define some design principles as guides for my thinking. Except that after half an hour with pen and paper nothing seems solid enough to be considered a principle. I'll revisit this.
+This felt like a good time to define some design principles as guides for my thinking. But after half an hour with pen and paper nothing seemed solid enough to be considered a principle. So I'll revisit this later.
 
-## But what about my current website?
+## What about my current website?
 
 Before wrapping this up, I want to take a look at my current website with all this thinking in the back of my mind. I particularly want to look at the two pages I like – the homepage and the 404. Here are some unedited thoughts on them:
 
