@@ -24,6 +24,11 @@ defaults:
     values:
       layout: essay
       permalink: '/writing/:slug'
+  - scope:
+      path: _drafts
+      type: posts
+    values:
+      layout: essay
 email: hi@danny.is
 description: Danny Smith is a person. I need to complete this.
 plugins:

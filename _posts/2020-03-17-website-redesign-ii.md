@@ -8,8 +8,8 @@ When I started _this_ redesign process, I fully expected to feel the same way. B
 
 More accurately, I still **really** like these two pages...
 
-![](/uploads/2020-03-17-dasmith1.png)
-![](/uploads/2020-03-17-dasmith2.png)
+![](../uploads/2020-03-17-dasmith1.png)
+![](../uploads/2020-03-17-dasmith2.png)
 
 When I designed them back in 2016 I was going for a modern "Swiss" influenced kinda vibe. I think I want to keep that.
 
