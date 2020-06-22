@@ -67,10 +67,11 @@ The goal is to just write up my process, so don't be bound by this.
 1. [x] A base to start from (CSS)
 1. [x] Pages and URLs
 1. [x] Choosing typefaces
-1. [ ] A responsive type hierarchy
-1. [ ] A vertical grid (a shitty baseline grid).
-1. [ ] Adding some niceties (drop caps, first line etc).
+1. [x] A responsive type hierarchy
+1. [x] A vertical grid (a shitty baseline grid).
+1. [x] Adding some niceties (drop caps, first line etc).
 1. [ ] Styling body links (active, visited, focussed)
+1. [ ] Styling lists
 1. [ ] Styling With Simplicity (making it look nice with no design: homepage, "redesign banner", etc).
 1. [ ] Inspiration - Examples of stuff I like. Visual shit. No CSS.
 1. [ ] Content Types.

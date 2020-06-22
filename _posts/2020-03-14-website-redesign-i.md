@@ -24,7 +24,7 @@ So a static site generator is the obvious choice. All the cool kids are using Ga
 
 Before going any further with the tech, I need some values and principles to guide my decisions.
 
-### Values
+## Values
 
 After some time with a pen and paper, these seem appropriate:
 
@@ -33,7 +33,7 @@ After some time with a pen and paper, these seem appropriate:
 - Authentic
 - Content-first
 
-### Engineering Principles
+## Engineering Principles
 
 Based on these values, I've pulled out some principles to guide my decisions on tech stack:
 

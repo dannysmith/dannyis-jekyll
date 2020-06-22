@@ -15,9 +15,7 @@ When I designed them back in 2016 I was going for a modern "Swiss" influenced ki
 
 But let's take a step back for a second and think about my goals.
 
-## Goals ...
-
-### Goals of this site
+## Goals of this site
 
 First and foremost, it's a personal expression of me. It's a place for me to **have fun**: both with my writing and with design & CSS. So it's okay if it's a bit goofy or stuff is a bit broken sometimes.
 
@@ -52,7 +50,7 @@ So here's a rule I'm gonna try to stick to:
 
 > Given a choice between what I want to do and what I feel I should do because [reasons], always choose the former.
 
-### Goals of this redesign
+## Goals of this redesign
 
 As I said in [Part I]({% post_url 2020-03-14-website-redesign-i %}), I'm doing this primarily for two reasons:
 
@@ -85,7 +83,7 @@ I'm hoping that this will help identify some words that I feel authentically rep
 
 More on this later.
 
-# So where are we at?
+## So where are we at?
 
 Besides the fact that I like my current website, we've identified three main actors and their goals. We've also established five initial goals for this redesign, and expanded on the most important of them.
 

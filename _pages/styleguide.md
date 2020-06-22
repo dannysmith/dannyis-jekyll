@@ -94,6 +94,26 @@ Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Intege
 
 Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros. Praesent vehicula urna velit, nec sodales purus varius a. Vivamus a diam sed augue mollis vehicula. Quisque eleifend finibus nisl. Maecenas mattis viverra lectus, eu ultricies ex malesuada et. Aenean gravida libero sit amet gravida pharetra. Praesent eleifend fermentum faucibus. Etiam at quam id nisi consequat porttitor.
 
-[^1]: This is the footnote, here.
+---
 
-\*[HTML]: Hyper Text MArkup Language
+# Heading One
+
+Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros.
+
+## Heading Two
+
+Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros.
+
+### Heading three
+
+Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros.
+
+#### Heading four
+
+Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros.
+
+##### Heading Five
+
+Sed hendrerit luctus nisi, cursus porttitor dolor pellentesque convallis. Integer turpis mi, sollicitudin eu cursus sed, dictum vel eros.
+
+[^1]: This is the footnote, here.

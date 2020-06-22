@@ -2,9 +2,7 @@
 title: 'The Definition of Done: What does "done" actually mean?'
 ---
 
-Scrum defines the **Definition of Done** in pretty simple terms: it's the acceptance criteria that are common to every single user story.
-
-For scrum teams, it's really important to have a solid definition of what "done" means. They work in sprints, and need some way of deciding whether a user story is actually finished. It's no good ending a sprint with a user story that meets all its acceptance criteria, but had no code review, hasn't been tested and isn't deployable. Such a story is clearly not done. Scrum teams solve this by strictly defining "done". In this case, in addition to meeting the acceptance criteria, the story must also:
+Scrum defines the **definition of done** in pretty simple terms: it's the acceptance criteria that are common to every single user story. For scrum teams, it's really important to have a solid definition of what "done" means. They work in sprints, and need some way of deciding whether a user story is actually finished. It's no good ending a sprint with a user story that meets all its acceptance criteria, but had no code review, hasn't been tested and isn't deployable. Such a story is clearly not done. Scrum teams solve this by strictly defining "done". In this case, in addition to meeting the acceptance criteria, the story must also:
 
 - Have had a code review.
 - Have been tested.
