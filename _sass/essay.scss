@@ -56,8 +56,12 @@
     &:first-of-type {
       margin-top: calc(2em * var(--base-lh));
     }
+
     // First Line
     &:first-of-type::first-line {
+      text-transform: lowercase;
+      -webkit-hyphens: none;
+      hyphens: none;
       font-variant-caps: small-caps;
       font-weight: 500;
       @supports (font-variation-settings: normal) {
