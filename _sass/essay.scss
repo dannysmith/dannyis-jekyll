@@ -23,7 +23,7 @@
     margin-top: calc(1em * var(--base-lh));
   }
 
-  // Headings
+  // HEADINGS
 
   // Turn off styles for links in headings
   h1,
@@ -38,54 +38,6 @@
       color: inherit;
       text-decoration: inherit;
     }
-  }
-
-  > p {
-    font-size: 1em;
-    font-variant-numeric: oldstyle-nums;
-
-    // Use hyphens only on small viewports.
-    -webkit-hyphens: auto;
-    hyphens: auto;
-
-    @media (min-width: $breakpoint-mid) {
-      -webkit-hyphens: none;
-      hyphens: none;
-    }
-
-    &:first-of-type {
-      margin-top: calc(2em * var(--base-lh));
-    }
-
-    // First Line
-    &:first-of-type::first-line {
-      text-transform: lowercase;
-      -webkit-hyphens: none;
-      hyphens: none;
-      font-variant-caps: small-caps;
-      font-weight: 500;
-      @supports (font-variation-settings: normal) {
-        font-weight: 525;
-      }
-    }
-
-    // Drop Cap
-    &:first-of-type::first-letter {
-      text-transform: uppercase;
-      float: left;
-      font-size: 4em;
-      line-height: 1;
-      padding-right: 0.4ch;
-    }
-  }
-
-  > blockquote {
-    font-variant-numeric: oldstyle-nums;
-  }
-
-  > ul,
-  > ol {
-    font-variant-numeric: oldstyle-nums;
   }
 
   > h1 {
@@ -123,16 +75,118 @@
     font-style: italic;
   }
 
-  // Use small caps for Abreviations
-  abbr {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    letter-spacing: 0.05ch;
-    cursor: help;
-    text-decoration-color: rgba(0, 0, 0, 0.2);
+  // PARAGRAPHS
+
+  > p {
+    font-size: 1em;
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
+
+    // Use hyphens only on small viewports.
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+    @media (min-width: $breakpoint-mid) {
+      -webkit-hyphens: none;
+      hyphens: none;
+    }
+
+    &:first-of-type {
+      margin-top: calc(2em * var(--base-lh));
+    }
+
+    // First Line
+    &:first-of-type::first-line {
+      text-transform: lowercase;
+      -webkit-hyphens: none;
+      hyphens: none;
+      font-variant-caps: small-caps;
+      font-weight: 500;
+      @supports (font-variation-settings: normal) {
+        font-weight: 525;
+      }
+    }
+
+    // Drop Cap
+    &:first-of-type::first-letter {
+      text-transform: uppercase;
+      float: left;
+      font-size: 4em;
+      line-height: 1;
+      padding-right: 0.4ch;
+    }
   }
 
+  // LISTS
+
+  ul,
+  ol {
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
+
+    li {
+      padding-left: 1em;
+    }
+  }
+
+  ul {
+    padding-left: 0.3em;
+    list-style-type: '•';
+  }
+
+  ol {
+    padding-left: 0.8em;
+
+    ::marker {
+      font-size: 1.4ex;
+      font-family: 'Literata Caption', Georgia, 'Times New Roman', serif;
+      font-weight: 600;
+
+      @supports (font-variation-settings: normal) {
+        font-family: 'Literata Variable', Georgia, 'Times New Roman', serif;
+        font-variation-settings: 'opsz' 10;
+        font-weight: 610;
+      }
+    }
+  }
+
+  .task-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .task-list-item {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .task-list-item-checkbox {
+    margin: 0.5em 1em 0 0;
+    height: 0.7em;
+    width: 0.7em;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .task-list-item-checkbox:checked {
+    &:before {
+      content: '\2713';
+      position: absolute;
+      top: 0.645em;
+      font-size: 0.6em;
+      font-weight: 600;
+    }
+  }
+
+  // OTHER BLOCK ELEMENTS
+
   > blockquote {
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
     border-left: 2px solid rgba(0, 0, 0, 0.2);
     padding-left: calc((1em * var(--base-lh)) - 2px);
     font-style: italic;
@@ -146,11 +200,38 @@
     overflow-x: scroll;
   }
 
-  // Strong
+  // OTHER INLINE ELEMENTS
+
+  abbr {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.05ch;
+
+    font-family: 'Literata Caption', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    @supports (font-variation-settings: normal) {
+      font-family: 'Literata Variable', Georgia, 'Times New Roman', serif;
+      font-variation-settings: 'opsz' 10;
+      font-weight: 440;
+    }
+
+    text-decoration-color: rgba(0, 0, 0, 0.15);
+    text-underline-position: under;
+
+    &[title] {
+      cursor: help;
+    }
+  }
+
   strong {
     font-weight: 600;
     @supports (font-variation-settings: normal) {
       font-weight: 625;
     }
+  }
+
+  del {
+    text-decoration-color: rgba(0, 0, 0, 0.4);
   }
 }

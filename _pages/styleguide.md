@@ -3,18 +3,44 @@ title: Styleguide
 layout: essay
 ---
 
-Lorem ipsum bardo dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus id justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
+Lorem ipsum bardo dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor 3/4 quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus 1969 justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
+
+Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
+
+1. This is a thing which is the first point
+1. And another thing which I need to consider where here.
+1. And so the cold shrew cried out in alarm, for his twig had forsaken him.
+1. Shortly, thus.
+1. This is a thing which is the first point
+1. And another thing which I need to consider where here.
+1. And so the cold shrew cried out in alarm, for his twig had forsaken him.
+1. Shortly, thus.
+1. This is a thing which is the first point
+1. And another thing which I need to consider where here.
+1. And so the cold shrew cried out in alarm, for his twig had forsaken him.
+1. Shortly, thus.
+
+Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
+
+- This is a thing which is the first point
+- And another thing which I need to consider where here.
+- And so the cold shrew cried out in alarm, for his twig had forsaken him.
+- Shortly, thus.
+
+Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
 
 {:.callout}
 This is an example of a **callout**. With some nice stuff in it, including a [link to somewhere gagagagaga](http://danny.is) and some _italic_ text. It also includes a `code snippet`.
 
-Pellentesque gravida magna eu blandit lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam HTML iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
+Pellentesque gravida magna eu blandit lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque <abbr>RAFAC</abbr> ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam HTML iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
 
 ```ruby
 def thing
   return "Hello" if true
 end
 ```
+
+Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
 
 - [x] Callout
 - [ ] Callout inline styles
@@ -29,7 +55,36 @@ Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus
 
 # We Love the Heading One
 
-![](/uploads/Screenshot 2020-03-14 at 18.13.47.png)
+![Demo Image](/uploads/Screenshot 2020-03-14 at 18.13.47.png)
+
+## A normal image
+
+Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
+
+![Demo Image](/uploads/2020-06-24-styleguide.jpg)
+
+## An image at left-bleed
+
+Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
+
+{:.left-bleed}
+![Demo Image](/uploads/2020-06-24-styleguide.jpg)
+
+## An image at right-bleed
+
+Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
+
+{:.right-bleed}
+![Demo Image](/uploads/2020-06-24-styleguide.jpg)
+
+## An image at full-bleed
+
+Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
+
+{:.full-bleed}
+![](/uploads/2020-06-24-styleguide.jpg)
+
+---
 
 Suspendisse vestibulum turpis metus, ac posuere purus lobortis eu. Nam in vestibulum odio, eget sodales enim. Pellentesque semper congue ex. Sed molestie porttitor ipsum, sed accumsan sem aliquet id. Aliquam rhoncus nisi convallis diam efficitur cursus. Donec id quam vel felis laoreet malesuada. Aenean laoreet ligula sed libero pretium hendrerit. Etiam in erat dolor. Sed diam leo, semper ac rhoncus sodales, posuere ac neque. Curabitur vitae velit ut sapien finibus imperdiet. Vestibulum consequat turpis sed enim elementum ultricies. Donec quis diam scelerisque, tincidunt urna congue, lacinia mauris. Nulla facilisi.
 

@@ -4,20 +4,20 @@ title: Website Redesign Part VIII - Adding some style
 
 The last part focussed on setting up a basic typographic system using margins and heading styles. In this part, I'm going to make a bunch of little tweaks to the typography of these essays. Over the next few months I'll probably make a whole host of little incremental changes like this.
 
-## Old-style Figures
+## Old-style Figures & Fractions
 
 Most good typefaces contain two sorts of figures. Lining figures are designed to sit on the baseline and are generally all the same height. They're great for headings, tables and UI. Old-style figures overhang the baseline and often vary in height. These are great for setting numbers in body copy.
 
 ![A_Figures](../uploads/A_Figures.png)
 
-I'm using the default lining figures in most places, but I want to use old-style figures in paragraphs, lists and blockquotes.
+I'm using the default lining figures in most places, but I want to use old-style figures in paragraphs, lists and blockquotes (eg. 1957). I also want to use proper fractions like this &rarr; 3/4.
 
 ```css
 .essay > p,
 .essay > ol,
 .essay > ul,
 .essay > blockquote {
-  font-variant-numeric: oldstyle-nums;
+  font-variant-numeric: oldstyle-nums diagonal-fractions;
 }
 ```
 
@@ -36,15 +36,36 @@ strong {
 
 ## Abbreviaions
 
-Abbreviations like <abbr title="Hyper Text Markup Language">HTML</abbr> nearly always look best rendered in small caps with a little space between the letters, so I'm doing that for any `<abbr>` tags and making the dotted underline slightly more subtle.
+Abbreviations like <abbr title="Hyper Text Markup Language">HTML</abbr> nearly always look best rendered in small caps with a little space between the letters, so I'm doing that for any `<abbr>` elements:
+
+- Use small caps and transform the text to lowercase to we don't get any _proper_ caps mixed in.
+- Space out the letters a bit (I'm using `ch` here, which is based on the width of the "0" character).
+- Use a low optical size and fall back to _Literata Caption_ where variable fonts aren't supported.
+- Use a slightly heavier weight than normal - roughly equivilent to Semibold.
+- Set the cursor to _help_ is it has a title attribute.
+- Make the dotted underline almost invisible, and position it under the baseline rather than on the baseline.
 
 ```css
 .essay abbr {
   text-transform: lowercase;
   font-variant: small-caps;
   letter-spacing: 0.05ch;
-  cursor: help;
-  text-decoration-color: rgba(0, 0, 0, 0.2);
+
+  font-family: 'Literata Caption', Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  @supports (font-variation-settings: normal) {
+    font-family: 'Literata Variable', Georgia, 'Times New Roman', serif;
+    font-variation-settings: 'opsz' 10;
+    font-weight: 410;
+  }
+
+  text-decoration-color: rgba(0, 0, 0, 0.15);
+  text-underline-position: under;
+
+  &[title] {
+    cursor: help;
+  }
 }
 ```
 
