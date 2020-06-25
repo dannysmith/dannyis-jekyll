@@ -130,20 +130,30 @@ a[class] {
 
 // Links without a class get default styles
 a:not([class]) {
-  text-decoration-skip-ink: auto;
-  text-decoration-color: rgba(0, 0, 0, 0.2);
+  text-decoration-color: var(--color-link-underline);
   text-decoration-thickness: 0.5px;
   color: inherit;
-  transition: all 0.15s;
+  transition: all 0.25s;
 
-  &:hover,
-  &:active {
-    color: var(--color-red);
-    text-decoration-color: var(--color-red);
+  @media (pointer: coarse) {
+    text-decoration: none;
+    color: var(--color-link-text);
   }
 
   &:visited {
-    color: var(--color-visited-link);
-    text-decoration-color: var(--color-visited-link);
+    text-decoration-color: var(--color-visited-link-underline);
+    @media (pointer: coarse) {
+      color: var(--color-visited-link-text);
+    }
   }
+
+  &:hover,
+  &:active {
+    text-decoration-color: var(--color-active-link-underline);
+    color: var(--color-active-link-text);
+  }
+}
+
+a:focus-visible {
+  outline: 3px solid var(--color-red-trans50);
 }

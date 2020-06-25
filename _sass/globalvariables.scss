@@ -18,7 +18,13 @@ $breakpoint-large: 60em;
   --color-medium-green: #00ab6b;
   --color-pocket-red: rgba(239, 64, 86, 0.9);
 
-  --color-visited-link: #ab93ab;
+  // Links
+  --color-link-underline: rgba(111, 131, 222, 0.5);
+  --color-link-text: #35448f;
+  --color-visited-link-underline: rgba(188, 127, 219, 0.5);
+  --color-visited-link-text: #78428c;
+  --color-active-link-underline: var(--color-red);
+  --color-active-link-text: var(--color-red);
 
   // ===================== LineHeights =====================
 

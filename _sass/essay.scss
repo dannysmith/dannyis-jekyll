@@ -2,6 +2,17 @@
   font-family: var(--font-essay);
 
   // Scale the type from 1rem (16px) at small viewports to 1.375rems (22px) at larger viewports.
+  // Fallback for browsers that don't support the clamp syntax below
+  font-size: 1rem;
+  @media (min-width: $breakpoint-mid) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: $breakpoint-large) {
+    font-size: 1.375rem;
+  }
+
+  // Clamp for more modern browsers
   font-size: clamp(1rem, calc(0.6rem + 1vw), 1.375rem);
   transition: font-size 0.1s;
 
@@ -173,14 +184,12 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
   }
 
-  .task-list-item-checkbox:checked {
-    &:before {
-      content: '\2713';
-      position: absolute;
-      top: 0.645em;
-      font-size: 0.6em;
-      font-weight: 600;
-    }
+  .task-list-item-checkbox:checked:before {
+    content: '\2713';
+    position: absolute;
+    top: 0.645em;
+    font-size: 0.6em;
+    font-weight: 600;
   }
 
   // OTHER BLOCK ELEMENTS
@@ -222,6 +231,10 @@
     &[title] {
       cursor: help;
     }
+  }
+
+  sup {
+    font-variant-position: super;
   }
 
   strong {

@@ -3,12 +3,12 @@ title: Styleguide
 layout: essay
 ---
 
-Lorem ipsum bardo dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor 3/4 quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus 1969 justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
+Lorem ipsum bardo dolor sit amet, consectetur adipiscing elit. Cras quis risus non mi posuere imperdiet ac nec elit. In egestas condimentum mi ac condimentum. Nulla porttitor 3/4 quam velit, nec condimentum orci tincidunt[^1] id. Vivamus eleifend, orci vel porta placerat, lectus est mattis augue, sit amet blandit ligula lacus 3rd July 1969 justo. Integer vel nunc sed mauris rutrum dignissim sed sit amet quam. Pellentesque sit amet cursus arcu. Suspendisse eu tellus quis velit consectetur cursus.
 
-Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer luctus, sapien pulvinar euismod pharetra, dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
+Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est fermentum, eleifend mi quis, ultrices elit. Nullam iaculis tellus neque, eu volutpat ex elementum ac. Nulla non consequat mauris, vel placerat risus. Sed mattis ac velit a eleifend. Nulla tempor hendrerit tristique. Integer [luctus, sapien pulvinar euismod pharetra](https://danny.is), dolor lorem lacinia nisl, non cursus ex nibh sed magna. Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Praesent sit amet felis sollicitudin, ullamcorper nunc ac, suscipit metus. Maecenas tempor nisl non nunc pulvinar, nec faucibus quam consectetur. Cras commodo eros et magna ornare, non efficitur velit sodales. Aenean rhoncus magna quis ex cursus, in tincidunt tortor egestas. Cras vulputate eu enim eget pulvinar.
 
 1. This is a thing which is the first point
-1. And another thing which I need to consider where here.
+1. And another [thing](#) which I need to consider where here.
 1. And so the cold shrew cried out in alarm, for his twig had forsaken him.
 1. Shortly, thus.
 1. This is a thing which is the first point
@@ -32,7 +32,7 @@ Donec leo libero, sodales a quam non, ullamcorper facilisis est. Nam id est ferm
 {:.callout}
 This is an example of a **callout**. With some nice stuff in it, including a [link to somewhere gagagagaga](http://danny.is) and some _italic_ text. It also includes a `code snippet`.
 
-Pellentesque gravida magna eu blandit lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque <abbr>RAFAC</abbr> ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam HTML iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
+Pellentesque [gravida magna eu blandit](http://foobardoogoo.comn) lobortis. Integer elementum ultricies ~~elementum~~. Nulla facilisi. Etiam a dolor _quis lectus consequat_ tempor. **Duis vel turpis** a <abbr title="A Big Cool Definition">ABCD</abbr> libero pretium pellentesque <abbr>RAFAC</abbr> ut sed ipsum. Integer eget quam placerat, commodo ligula id, vehicula nunc. [Sed rhoncus massa](http://danny.is) vel ipsum elementum, eget hendrerit quam HTML iaculis. Phasellus ac `odio non arcu` feugiat blandit in eget ipsum.
 
 ```ruby
 def thing
@@ -62,6 +62,12 @@ Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus
 Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
 
 ![Demo Image](/uploads/2020-06-24-styleguide.jpg)
+
+## A normal image with a border
+
+Donec feugiat sagittis velit non molestie. Nullam mattis erat eget elit faucibus, ac tincidunt ligula bibendum. Suspendisse potenti. Nunc et aliquet nunc.
+
+![Demo Image](/uploads/2020-06-24-styleguide.jpg){:.border}
 
 ## An image at left-bleed
 

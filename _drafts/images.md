@@ -28,18 +28,21 @@ Which will produce HTML that looks something like this:
     // For images that are not wide enough to fill the gap
     display: flex;
     justify-content: center;
+    align-items: flex-start;
   }
 
   .left-bleed {
     margin-left: calc(50% - 50vw);
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
   }
 
   .right-bleed {
     margin-right: calc(50% - 50vw);
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 ```
