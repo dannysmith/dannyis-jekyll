@@ -152,6 +152,7 @@ Next, we'll remove the default appearance, set a hight and width and nudge the b
   margin: 0.5em 1em 0 0;
   height: 0.7em;
   width: 0.7em;
+  min-width: 0.7em; /* Prevent flex-shrinking */
 
   -webkit-appearance: none;
   -moz-appearance: none;

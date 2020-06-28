@@ -45,7 +45,7 @@ Abbreviations like <abbr title="Hyper Text Markup Language">HTML</abbr> nearly a
 - Set the cursor to _help_ is it has a title attribute.
 - Make the dotted underline almost invisible, and position it under the baseline rather than on the baseline.
 
-```css
+```scss
 .essay abbr {
   text-transform: lowercase;
   font-variant: small-caps;

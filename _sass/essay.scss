@@ -126,6 +126,21 @@
       line-height: 1;
       padding-right: 0.4ch;
     }
+
+    // End mark
+    &:last-of-type:after {
+      display: inline-block;
+      content: ' ';
+      -webkit-mask: url(../images/svg/end-mark.svg);
+      mask: url(../images/svg/end-mark.svg);
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: currentColor;
+      height: 0.65em;
+      width: 1em;
+      line-height: 0.5;
+      margin-left: 0.1em;
+    }
   }
 
   // LISTS
@@ -162,7 +177,7 @@
   }
 
   ol {
-    padding-left: 0.8em;
+    padding-left: 0.4em;
 
     ::marker {
       font-size: 1.4ex;
@@ -189,7 +204,7 @@
   }
 
   .task-list-item-checkbox {
-    margin: 0.5em 1em 0 0;
+    margin: 0.5em 0.7em 0 0;
     height: 0.7em;
     width: 0.7em;
     min-width: 0.7em; // To prevent flexbox shrinking the checkbox
@@ -231,11 +246,26 @@
     margin-left: 0;
   }
 
+  code {
+    font-size: 0.85em;
+    padding: 0 0.5ch;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    white-space: pre;
+  }
+
   pre {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: calc((1em * var(--base-lh)) - 2px);
     background: rgba(0, 0, 0, 0.05);
     overflow-x: scroll;
+
+    code {
+      padding: 0;
+      background-color: transparent;
+      border: none;
+    }
   }
 
   // OTHER INLINE ELEMENTS
@@ -275,5 +305,40 @@
 
   del {
     text-decoration-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .callout {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    padding: calc((1em * var(--base-lh)) - 2px);
+    &:before {
+      content: '📌';
+      position: absolute;
+      top: 0;
+      left: 0.3em;
+      transform: translateY(-0.6em) rotate(-20deg);
+    }
+  }
+
+  hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    &:before {
+      content: '§';
+      transform: translateY(-0.15em);
+      background: var(--color-white);
+      padding: 0 0.5em;
+    }
+  }
+
+  hr,
+  hr + * {
+    margin-top: calc(2em * var(--base-lh));
   }
 }

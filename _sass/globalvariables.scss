@@ -8,6 +8,7 @@ $breakpoint-large: 60em;
 :root {
   // ===================== Colours =====================
   --color-red: rgb(255, 30, 28);
+  --color-red-dark: rgb(101, 12, 11);
   --color-red-trans50: rgb(255, 30, 28, 0.5);
   --color-cream: #f6f3ea;
   --color-yellow: #ffde59;
@@ -48,5 +49,8 @@ $breakpoint-large: 60em;
   // }
 
   // Code Fonts
-  --font-code: 'Inconsolata', monospace;
+  --font-code: 'Fira Code', 'Inconsolata', monospace;
+  @supports (font-variation-settings: normal) {
+    --font-code: 'Fira Code Variable', 'Inconsolata', monospace;
+  }
 }

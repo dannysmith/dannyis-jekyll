@@ -157,3 +157,11 @@ a:not([class]) {
 a:focus-visible {
   outline: 3px solid var(--color-red-trans50);
 }
+
+code {
+  font-family: var(--font-code);
+  font-feature-settings: 'ss01', 'ss08';
+  // sso1 = sans-serif lowercase "r"
+  // ss08 = Gaps in double/tripple equals
+  // See https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets
+}
