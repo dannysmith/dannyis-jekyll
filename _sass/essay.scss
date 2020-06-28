@@ -144,18 +144,20 @@
     list-style-type: '•';
 
     @supports (not (list-style-type: '•')) {
-      // Begin fix for browsers that don't support list-style-type: <string>
-      list-style-type: none;
-      padding-left: 0;
-      li {
+      &:not(.task-list) {
+        // Begin fix for browsers that don't support list-style-type: <string>
+        list-style-type: none;
         padding-left: 0;
-        display: flex;
-        &:before {
-          content: '•';
-          padding-right: 1em;
+        li {
+          padding-left: 0;
+          display: flex;
+          &:before {
+            content: '•';
+            padding-right: 1em;
+          }
         }
+        // End fix
       }
-      // End fix
     }
   }
 
