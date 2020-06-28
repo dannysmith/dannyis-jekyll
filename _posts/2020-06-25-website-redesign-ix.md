@@ -19,8 +19,27 @@ After a bit of playing around, I've decided to keep the bullets super sumple. We
 
 ```css
 .essay ul {
-  padding-left: 0.3em;
+  padding-left: 0.4em;
   list-style-type: '•';
+}
+```
+
+Annoyingly, iOS Safari and Chrome don't yet support string values for `list-style-type`, but since they both support `@supports`, we can add a fallback.
+
+```scss
+@supports (not (list-style-type: '•')) {
+  // Begin fix for browsers that don't support list-style-type: <string>
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    padding-left: 0;
+    display: flex;
+    &:before {
+      content: '•';
+      padding-right: 1em;
+    }
+  }
+  // End fix
 }
 ```
 
@@ -153,6 +172,21 @@ Finally, we'll add a tick (&#x2713;) to any that are checked, style it and posit
   top: 0.645em;
   font-size: 0.6em;
   font-weight: 600;
+}
+```
+
+To make this work properly on iOS, we also need to explicitly set the background and border-radius, and bump the opacity of disabled checkboxes up to 1.
+
+```scss
+.task-list-item-checkbox {
+  // ...
+  border-radius: 0px;
+  background: transparent;
+  //...
+}
+
+.task-list-item-checkbox[disabled] {
+  opacity: 1;
 }
 ```
 
