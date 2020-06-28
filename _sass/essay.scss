@@ -1,15 +1,279 @@
 .essay {
   font-family: var(--font-essay);
-}
 
-.essay > * {
-  line-height: 1.5;
-  max-width: 33rem;
-  margin-left: auto;
-  margin-right: auto;
-}
+  // Scale the type from 1rem (16px) at small viewports to 1.375rems (22px) at larger viewports.
+  // Fallback for browsers that don't support the clamp syntax below
+  font-size: 1rem;
+  @media (min-width: $breakpoint-mid) {
+    font-size: 1.2rem;
+  }
 
-// Natural flow margin
-.essay > * + * {
-  margin-top: 1em;
+  @media (min-width: $breakpoint-large) {
+    font-size: 1.375rem;
+  }
+
+  // Clamp for more modern browsers
+  font-size: clamp(1rem, calc(0.6rem + 1vw), 1.375rem);
+  transition: font-size 0.1s;
+
+  // Margin and Width
+  margin: 4rem auto;
+  padding: 0 2rem;
+  max-width: 41rem;
+  @media (min-width: $breakpoint-large) {
+    max-width: 48rem;
+  }
+
+  > * {
+    line-height: var(--base-lh);
+  }
+
+  // Add margin to the top of all elements except the first one.
+  // Use ems so it scales with the font-size of the element.
+  > * + * {
+    margin-top: calc(1em * var(--base-lh));
+  }
+
+  // HEADINGS
+
+  // Turn off styles for links in headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+
+  > h1 {
+    font-size: 2rem;
+    @media (min-width: $breakpoint-mid) {
+      font-size: 3rem;
+    }
+    font-weight: 500;
+    font-variation-settings: 'opsz' 50;
+    line-height: 1.3;
+  }
+
+  > h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    margin-top: calc(2em * var(--base-lh));
+  }
+
+  > h3 {
+    font-weight: bold;
+    margin-top: calc(2em * var(--base-lh));
+  }
+
+  > h4 {
+    font-weight: 600;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.05ch;
+  }
+
+  > h5,
+  > h6 {
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  // PARAGRAPHS
+
+  > p {
+    font-size: 1em;
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
+    hanging-punctuation: first;
+
+    // Use hyphens only on small viewports.
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+    @media (min-width: $breakpoint-mid) {
+      -webkit-hyphens: none;
+      hyphens: none;
+    }
+
+    &:first-of-type {
+      margin-top: calc(2em * var(--base-lh));
+    }
+
+    // First Line
+    &:first-of-type::first-line {
+      text-transform: lowercase;
+      -webkit-hyphens: none;
+      hyphens: none;
+      font-variant-caps: small-caps;
+      font-weight: 500;
+      @supports (font-variation-settings: normal) {
+        font-weight: 525;
+      }
+    }
+
+    // Drop Cap
+    &:first-of-type::first-letter {
+      text-transform: uppercase;
+      float: left;
+      font-size: 4em;
+      line-height: 1;
+      padding-right: 0.4ch;
+    }
+  }
+
+  // LISTS
+
+  ul,
+  ol {
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
+
+    li {
+      padding-left: 1em;
+    }
+  }
+
+  ul {
+    padding-left: 0.4em;
+    list-style-type: '•';
+
+    @supports (not (list-style-type: '•')) {
+      &:not(.task-list) {
+        // Begin fix for browsers that don't support list-style-type: <string>
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          padding-left: 0;
+          display: flex;
+          &:before {
+            content: '•';
+            padding-right: 1em;
+          }
+        }
+        // End fix
+      }
+    }
+  }
+
+  ol {
+    padding-left: 0.8em;
+
+    ::marker {
+      font-size: 1.4ex;
+      font-family: 'Literata Caption', Georgia, 'Times New Roman', serif;
+      font-weight: 600;
+
+      @supports (font-variation-settings: normal) {
+        font-family: 'Literata Variable', Georgia, 'Times New Roman', serif;
+        font-variation-settings: 'opsz' 10;
+        font-weight: 610;
+      }
+    }
+  }
+
+  .task-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .task-list-item {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .task-list-item-checkbox {
+    margin: 0.5em 1em 0 0;
+    height: 0.7em;
+    width: 0.7em;
+    min-width: 0.7em; // To prevent flexbox shrinking the checkbox
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none;
+
+    border-radius: 0px;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+  }
+
+  .task-list-item-checkbox:checked {
+    color: var(--color-red);
+    &:before {
+      content: '\2713';
+      position: absolute;
+      top: 0.645em;
+      left: 0.2em;
+      font-size: 0.6em;
+      font-weight: 600;
+    }
+  }
+  .task-list-item-checkbox[disabled] {
+    opacity: 1;
+  }
+
+  // OTHER BLOCK ELEMENTS
+
+  > blockquote {
+    font-variant-numeric: oldstyle-nums diagonal-fractions;
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    padding-left: calc((1em * var(--base-lh)) - 2px);
+    font-style: italic;
+    margin-left: 0;
+  }
+
+  pre {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: calc((1em * var(--base-lh)) - 2px);
+    background: rgba(0, 0, 0, 0.05);
+    overflow-x: scroll;
+  }
+
+  // OTHER INLINE ELEMENTS
+
+  abbr {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.05ch;
+
+    font-family: 'Literata Caption', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    @supports (font-variation-settings: normal) {
+      font-family: 'Literata Variable', Georgia, 'Times New Roman', serif;
+      font-variation-settings: 'opsz' 10;
+      font-weight: 440;
+    }
+
+    text-decoration-color: rgba(0, 0, 0, 0.15);
+    text-underline-position: under;
+
+    &[title] {
+      cursor: help;
+    }
+  }
+
+  sup {
+    font-variant-position: super;
+  }
+
+  strong {
+    font-weight: 600;
+    @supports (font-variation-settings: normal) {
+      font-weight: 625;
+    }
+  }
+
+  del {
+    text-decoration-color: rgba(0, 0, 0, 0.4);
+  }
 }

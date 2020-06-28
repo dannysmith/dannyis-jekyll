@@ -5,7 +5,9 @@
   <body>
     <main class="page-content" aria-label="Content">
       <article class="essay">
-        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <h1 role="heading" aria-level="1">
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
         {{ content }}
       </article>
     </main>

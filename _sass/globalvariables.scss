@@ -1,5 +1,10 @@
-// Variables should be set on root.
+// Sass Variables for use in media queries
 
+// ===================== Breakpoints =====================
+$breakpoint-mid: 42em;
+$breakpoint-large: 60em;
+
+// Most Global CSS variables should be set on root.
 :root {
   // ===================== Colours =====================
   --color-red: rgb(255, 30, 28);
@@ -12,6 +17,18 @@
 
   --color-medium-green: #00ab6b;
   --color-pocket-red: rgba(239, 64, 86, 0.9);
+
+  // Links
+  --color-link-underline: rgba(111, 131, 222, 0.5);
+  --color-link-text: #35448f;
+  --color-visited-link-underline: rgba(188, 127, 219, 0.5);
+  --color-visited-link-text: #78428c;
+  --color-active-link-underline: var(--color-red);
+  --color-active-link-text: var(--color-red);
+
+  // ===================== LineHeights =====================
+
+  --base-lh: 1.5;
 
   // ===================== Font Families =====================
 
