@@ -1,13 +1,10 @@
 ---
 title: What I’m doing now
+layout: essay
 ---
 
 {:.callout}
 This is a [now page](https://nownownow.com/about). Thanks to [Derek Sivers](https://sivers.org/nowff) for the idea.
-
-What am I doing now, then?
-
-## Working
 
 I’m working as **Technology Director** at [RED Academy](https://redacademy.com/). I’m also **Curriculum Director for Technology** at RED.
 
@@ -30,4 +27,3 @@ When I’m not having a barbecue with my neighbours I’m probably [at the pub](
 ---
 
 Updated on March 14th from Islington, London.
-

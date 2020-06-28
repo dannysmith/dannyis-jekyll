@@ -1,8 +1,9 @@
 // Sass Variables for use in media queries
 
 // ===================== Breakpoints =====================
-$breakpoint-mid: 42em;
-$breakpoint-large: 60em;
+$breakpoint-m: 42em;
+$breakpoint-l: 60em;
+$breakpoint-xl: 75em;
 
 // Most Global CSS variables should be set on root.
 :root {
@@ -19,6 +20,9 @@ $breakpoint-large: 60em;
   --color-medium-green: #00ab6b;
   --color-pocket-red: rgba(239, 64, 86, 0.9);
 
+  // Major Colors
+  --color-background: var(--color-white);
+
   // Links
   --color-link-underline: rgba(111, 131, 222, 0.5);
   --color-link-text: #35448f;
@@ -34,7 +38,7 @@ $breakpoint-large: 60em;
   // ===================== Font Families =====================
 
   // UI Fonts
-  --font-ui: 'Futura', sans-serif;
+  --font-ui: 'futura-pt', helvetica, sans-serif;
 
   //Essay Fonts
 

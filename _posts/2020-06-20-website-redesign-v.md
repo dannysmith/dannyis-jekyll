@@ -148,6 +148,4 @@ Literata is probably one of my favourites. It feels right for the job, somehow. 
 
 This also scores well when it comes to readability, but the fact it's slab serifs and very dark color make it feel a bit too unrefined for use here. It's still on the shortlist though.
 
----
-
 [^1]: [Here's](https://sparanoid.com/lab/opentype-features/) a good overview of CSS opentype features.

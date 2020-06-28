@@ -1,0 +1,80 @@
+//   The code in this file is pretty messy and is just for getting the site live.
+
+h1 {
+  position: relative;
+  font-size: 17vw;
+  margin-top: -0.2em;
+  z-index: 1;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  position: fixed;
+  right: 1rem;
+  bottom: 0;
+  transform-origin: top right;
+  transform: rotate(90deg);
+}
+
+ul.display-list {
+  display: inline-block;
+  padding: 1rem;
+
+  li {
+    text-transform: uppercase;
+    letter-spacing: 0.2ch;
+    list-style-type: none;
+    padding: 0.3em 0 0.2em;
+    border-bottom: 5px solid var(--color-red);
+  }
+}
+
+ul.post-list {
+  display: inline-block;
+  padding: 1rem;
+  margin: 0;
+
+  li {
+    letter-spacing: 0.1ch;
+    padding: 0.3em 0 0.2em;
+    border-bottom: 2px solid var(--color-black);
+  }
+
+  a:hover {
+    color: var(--color-active-link-text);
+  }
+
+  .post-meta {
+    font-size: 0.65em;
+    text-transform: uppercase;
+    color: var(--color-red);
+    white-space: pre;
+  }
+
+  @media screen and (min-width: $breakpoint-xl) {
+    transform-origin: bottom right;
+    transform: rotate(45deg) translateX(calc(1rem + 30vw))
+      translateY(calc(-1 * (1rem + 10vw)));
+    max-width: calc(1rem * 65vw);
+
+    &::after {
+      display: block;
+      position: relative;
+      z-index: -1;
+      content: ' ';
+      background: var(--color-red-trans50);
+      height: 1.5rem;
+      width: 500%;
+      margin-left: -100vw;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-xl) {
+  .page-home {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}

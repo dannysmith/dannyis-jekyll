@@ -44,13 +44,13 @@ We can use the new CSS `clamp()` function to enable responsive type without the 
 Enabling hyphenation can make a big difference to readability on small screens, where an uneven right rag can cause very short lines. We can set up a SCSS variable for breakpoints and then use a media query to turn hyphenation off for larger viewports.
 
 ```scss
-$breakpoint-mid: 42em;
+$breakpoint-m: 42em;
 
 .essay > p {
   -webkit-hyphens: auto;
   hyphens: auto;
 
-  @media (min-width: $breakpoint-mid) {
+  @media (min-width: $breakpoint-m) {
     -webkit-hyphens: none;
     hyphens: none;
   }
@@ -125,7 +125,7 @@ The article title is bigger, and increases is size on larger viewports.
 ```css
 .essay > h1 {
   font-size: 2rem;
-  @media (min-width: $breakpoint-mid) {
+  @media (min-width: $breakpoint-m) {
     font-size: 3rem;
   }
   font-weight: 500;

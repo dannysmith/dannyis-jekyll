@@ -10,19 +10,13 @@ title: Danny Smith
 
   <ul class="display-list">
     <li>
-      <a href="/writing"><strong>writing</strong></a>
+      <a class="nav-link" href="/writing"><strong>writing</strong></a>
     </li>
     <li>
-      <a href="/singing"><strong>singing</strong></a>
+      <a class="nav-link" href="/about"><strong>about</strong></a>
     </li>
     <li>
-      <a href="/about"><strong>about</strong></a>
-    </li>
-    <li>
-      <a href="/now"><strong>now</strong></a>
-    </li>
-    <li>
-      <a href="/using">stuff I'm <strong>using</strong></a>
+      <a class="nav-link" href="/now"><strong>now</strong></a>
     </li>
     <li>
       <a class="url" rel="me" href="https://twitter.com/dannysmith"
@@ -30,8 +24,8 @@ title: Danny Smith
       >
     </li>
     <li>
-      <a class="url" rel="me" href="https://github.com/dannysmith"
-        ><strong>github</strong>/dannysmith</a
+      <a class="url" rel="me" href="https://www.linkedin.com/in/dannyasmith"
+        ><strong>linkedin</strong>/dannyasmith</a
       >
     </li>
     <li>
@@ -40,8 +34,8 @@ title: Danny Smith
       >
     </li>
     <li>
-      <a class="url" rel="me" href="https://speakerdeck.com/dannysmith"
-        ><strong>speakerdeck</strong>/dannysmith</a
+      <a class="url" rel="me" href="https://github.com/dannysmith"
+        ><strong>github</strong>/dannysmith</a
       >
     </li>
     <li>
@@ -52,11 +46,6 @@ title: Danny Smith
     <li>
       <a class="url" rel="me" href="https://keybase.io/dannysmith"
         ><strong>keybase</strong>.io/dannysmith</a
-      >
-    </li>
-    <li>
-      <a class="url" rel="me" href="https://www.linkedin.com/in/dannyasmith"
-        ><strong>linkedin</strong>/dannyasmith</a
       >
     </li>
     <li>
@@ -80,14 +69,12 @@ title: Danny Smith
   </div>
 
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for post in site.posts limit:8 -%}
     <li>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      <span class="post-meta">{{ post.date | date: '%b %-d, %Y' }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+      <span class="post-meta">{{ post.date | date: '%-d %b %y' }}</span>
     </li>
     {%- endfor -%}
   </ul>
