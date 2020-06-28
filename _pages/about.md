@@ -1,6 +1,6 @@
 ---
 title: About
-layout: essay
+body-class: page-about
 ---
 
 I write on this **website**, and publish a regular **newsletter** on remote working, leadership and tech.
