@@ -28,18 +28,21 @@ Annoyingly, iOS Safari and Chrome don't yet support string values for `list-styl
 
 ```scss
 @supports (not (list-style-type: '•')) {
-  // Begin fix for browsers that don't support list-style-type: <string>
-  list-style-type: none;
-  padding-left: 0;
-  li {
-    padding-left: 0;
-    display: flex;
-    &:before {
-      content: '•';
-      padding-right: 1em;
+  &:not(.task-list) {
+    // Begin fix for browsers that don't support list-style-type: <string>
+    list-style-type: none;
+    padding-left: 0.9em;
+    li {
+      padding-left: 0.5em;
+      position: relative;
+      &:before {
+        content: '•';
+        position: absolute;
+        left: -1em;
+      }
     }
+    // End fix
   }
-  // End fix
 }
 ```
 
