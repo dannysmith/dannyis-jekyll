@@ -36,13 +36,7 @@ The picture element is far more powerful, but also more complex. It allows us to
 
 ## Images on this website
 
-Right now, most images on this site are included via simple markdown tags:
-
-```md
-![An image](/uploads/an-image.png)
-```
-
-This means that the generated HTML is pretty simple:
+Right now, most images on this site are included via standard markdown image tags, and the generated HTML is pretty simple:
 
 ```html
 <img src="/uploads/an-image.png" alt="An image" />
@@ -117,8 +111,8 @@ responsive_image:
 How we need to create our template. I stole most of this straignt from the docs, but I've added lazy loading and width/height attributes.
 
 ```html
-{% capture srcset %} {% for i in resized %} /{{ i.path }} {{ i.width }}w, {%
-endfor %} {% endcapture %}
+{% raw %} {% capture srcset %} {% for i in resized %} /{{ i.path }} {{ i.width
+}}w, {% endfor %} {% endcapture %}
 <img
   src="/{{ path }}"
   alt="{{ alt }}"
@@ -127,12 +121,13 @@ endfor %} {% endcapture %}
   width="{{ original.width }}"
   height="{{ original.height }}"
 />
+{% endraw %}
 ```
 
 So far so good. We can now insert responsive images with
 
 ```html
-{% responsive_image path: image.jpg alt: "My Image" %}
+{% raw %} {% responsive_image path: image.jpg alt: "My Image" %} {% endraw %}
 ```
 
 To get this working with standard markdown, we need to register a hook that replaces markdown image syntax with this new tag at build-time. We can create `_plugins/img_tag_transform.rb` and add the following.
@@ -140,7 +135,7 @@ To get this working with standard markdown, we need to register a hook that repl
 ```ruby
 Jekyll::Hooks.register :posts, :pre_render do |post, _payload|
   docExt = post.extname.tr('.', '')
-  post.content = post.content.gsub(/!\[(.*)\]\(([^\)]+)\)(?:{:([^}]+)})*/, '{% responsive_image path: \2 \3 %}')
+  post.content = post.content.gsub(/!\[(.*)\]\(([^\)]+)\)(?:{:([^}]+)})*/, '{% raw %}{% responsive_image path: \2 \3 %}{% endraw %}')
   post.content = post.content.gsub 'path: /', 'path: '
 end
 ```
@@ -184,9 +179,11 @@ We can do this with a utility class and some `calc()` magic.
 
 These styles are applied to the _container_ rather than the image itself so that images smaller than the container are never scaled up. We can apply this style in markdown like this
 
-```md
+```markdown
+{% raw %}
 {:.full-bleed}
-![Image](/uploads/image.jpg)
+![Image](/uploads/2020-07-02-hot-air-baloon.jpg)
+{% endraw %}
 ```
 
 Which will produce the following HTML

@@ -86,6 +86,14 @@ img {
   display: block;
 }
 
+// Make images easier to work with
+iframe,
+video {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
 // Inherit fonts for inputs and buttons
 input,
 button,
