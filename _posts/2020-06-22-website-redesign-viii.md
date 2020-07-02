@@ -8,7 +8,7 @@ The last part focussed on setting up a basic typographic system using margins an
 
 Most good typefaces contain two sorts of figures. Lining figures are designed to sit on the baseline and are generally all the same height. They're great for headings, tables and UI. Old-style figures overhang the baseline and often vary in height. These are great for setting numbers in body copy.
 
-![A_Figures](../uploads/A_Figures.png)
+![A_Figures](/uploads/A_Figures.png)
 
 I'm using the default lining figures in most places, but I want to use old-style figures in paragraphs, lists and blockquotes (eg. 1957). I also want to use proper fractions like this &rarr; 3/4.
 
@@ -73,7 +73,7 @@ Abbreviations like <abbr title="Hyper Text Markup Language">HTML</abbr> nearly a
 
 I'm experimenting with adding drop-cap and small caps for the first line. I'm not yet sure whether I really like this, so will probably revisit later on. I've also added [hanging punctuation](https://css-tricks.com/almanac/properties/h/hanging-punctuation/) for paragraphs (only supported by Safari at the moment)
 
-![Example: Drop Caps](../uploads/2020-06-22-drop-cap.png){:.border}
+![Example: Drop Caps](/uploads/2020-06-22-drop-cap.png){:.border}
 
 ```scss
 .essay > p {

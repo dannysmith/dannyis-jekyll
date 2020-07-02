@@ -68,7 +68,7 @@ Etiam pharetra accumsan nulla id suscipit. Nulla malesuada eleifend aliquet. Pra
 
 # We Love the Heading One
 
-![Demo Image](/uploads/Screenshot 2020-03-14 at 18.13.47.png)
+![Demo Image](/uploads/Screenshot2020-03-14at18.13.47.png)
 
 ## A normal image
 

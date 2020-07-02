@@ -65,8 +65,8 @@ But I definitely want to retain the likes from Pocket and Medium. I don't want t
 
 Enter Airtable. I can have IFTTT create a record in Airtable whenever I clap for a medium article or archive a pocket item.
 
-![Airtable Screenshot](../uploads/2020-03-17-airtable1.png)
-![Airtable Screenshot](../uploads/2020-03-17-airtable2.png)
+![Airtable Screenshot](/uploads/2020-03-17-airtable1.png)
+![Airtable Screenshot](/uploads/2020-03-17-airtable2.png)
 
 Although this means I'm dependant on Airtable for this part of my website, I'm okay with that because it's not a core part of my site: if airtable goes down or kill my account then 🤷‍♂️. The advantages well outweigh the overhead of managing my own server and database. Also...
 

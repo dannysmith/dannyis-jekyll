@@ -4,7 +4,7 @@ title: Website Redesign Part VI - Adding a Typeface for Essays
 
 After much messing about with typefaces, I think I've narrowed the choice for essay copy down to two contenders: Literata and Lora. Both feel "bookish" and are designed for long-form reading on screens. Both are open source and available as variable fonts as well as static. Version 3 of Literata not only allows us to vary the weight, but also the optical size. The static version has four optical sizes – each in various weights and italic versions.
 
-![Optical sizes](../uploads/literata-optical-sizes.png)
+![Optical sizes](/uploads/literata-optical-sizes.png)
 
 The caption variant is designed for small sizes (around 7pt), the regular variant for body copy and the deck and display variants are meant for headings. The variable version gives me pretty fine-grained control over this.
 
@@ -24,7 +24,7 @@ Since the Lora repo already includes TFF files, I just tweaked `build-woff.sh` a
 
 After renaming the wolf and woff2 versions of the variable fonts to remove the brackets, I ended up with this in the `fonts` directory of this site...
 
-![Screenshot of file tree in fonts directory](../uploads/2020-06-18-font-tree.png)
+![Screenshot of file tree in fonts directory](/uploads/2020-06-18-font-tree.png)
 
 The whole thing comes in at a whopping 28MB, but that's okay because I'm not actually gonna use most of these in production. I just want them to play with for the moment.
 
@@ -90,11 +90,11 @@ h5 {
 }
 ```
 
-![Screenshot of discretionary ligatures in heading](../uploads/2020-06-19-heading-ligs.png){:.border}
+![Screenshot of discretionary ligatures in heading](/uploads/2020-06-19-heading-ligs.png){:.border}
 
 ## So where are we at?
 
-![Comparison of Literata and Lora applied to an essay](../uploads/2020-06-19-final-screenshots.png)
+![Comparison of Literata and Lora applied to an essay](/uploads/2020-06-19-final-screenshots.png)
 
 I'll see which of these two feels best as I work on the site over the next few weeks.
 

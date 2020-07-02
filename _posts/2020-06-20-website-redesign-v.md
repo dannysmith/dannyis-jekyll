@@ -70,7 +70,7 @@ After a lot of exploration, I've settled on five candidates. None hit all the cr
 ([Google font page](https://fonts.google.com/specimen/Spectral))
 
 {:.full-bleed}
-![Type Specimen - Spectral](../uploads/2020-06-19-Spectral.png){:.border}
+![Type Specimen - Spectral](/uploads/2020-06-19-Spectral.png){:.border}
 
 Specral was designed in 2017 as a screen-first typeface. [This article](https://design.google/library/spectral-new-screen-first-typeface/) goes into a lot more detail.
 
@@ -91,7 +91,7 @@ If I was setting a book on the web, I'd definitely consider this though.
 ([Google font page](https://fonts.google.com/specimen/Lora))
 
 {:.full-bleed}
-![Type Specimen - Lora](../uploads/2020-06-19-Lora.png){:.border}
+![Type Specimen - Lora](/uploads/2020-06-19-Lora.png){:.border}
 
 > Lora is a well-balanced contemporary serif with roots in calligraphy. It is a text typeface with moderate contrast well suited for body text.
 >
@@ -101,7 +101,7 @@ If I was setting a book on the web, I'd definitely consider this though.
 
 Lora was designed by Olga Karpushina in 2011. It's definitely the least unusual of the five, though the fairly upright italic is beuatiful. This is definitely one that would get out of the way and put the content first.
 
-![Type Promo - Lora](../uploads/2020-06-21-lora-promo.png)
+![Type Promo - Lora](/uploads/2020-06-21-lora-promo.png)
 
 ---
 
@@ -129,7 +129,7 @@ I love the fact that Alegreya has a small caps variant and is part of a super fa
 ([Google font page](https://fonts.google.com/specimen/Literata))
 
 {:.full-bleed}
-![Type Specimen - Literata](../uploads/2020-06-19-Literata.png){:.border}
+![Type Specimen - Literata](/uploads/2020-06-19-Literata.png){:.border}
 
 Literata is probably one of my favourites. It feels right for the job, somehow. It's got a huge array of varients plus a variable version and some lovely ligatures. It was commissioned by Google and designed by TypeTogether in 2015 and is the default font family in Google Play Books. I'm not sure I like the idea of using a face that so many folks will associate with Google, but as far as versitility and reading experience goes, this is definitely on the shortlist.
 
@@ -140,7 +140,7 @@ Literata is probably one of my favourites. It feels right for the job, somehow. 
 ([Google font page](https://fonts.google.com/specimen/Bitter))
 
 {:.full-bleed}
-![Type Specimen - Bitter](../uploads/2020-06-19-Bitter.png){:.border}
+![Type Specimen - Bitter](/uploads/2020-06-19-Bitter.png){:.border}
 
 > Motivated by my love for the pixel I designed Bitter. A "contemporary" slab serif typeface for text, it is specially designed for comfortably reading on any computer or device. The robust design started from the austerity of the pixel grid, based on rational rather than emotional principles. It combines the large x-heights and legibility of the humanistic tradition with subtle characteristics in the characters that inject a certain rhythm to flowing texts.
 >

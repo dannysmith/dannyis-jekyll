@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem 'jekyll-optional-front-matter', git: 'https://github.com/benbalter/jekyll-optional-front-matter.git'
   gem 'jekyll-seo-tag'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-responsive-image'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

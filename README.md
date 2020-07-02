@@ -5,9 +5,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/591407d0-3299-4d9f-a929-495f4725de39/deploy-status)](https://app.netlify.com/sites/dannyis/deploys)
 
-## Run
+## Install and Run
 
 ```shell
+brew install imagemagick
+bundle install
+
 bundle exec jekyll serve --drafts --livereload
 ```
 

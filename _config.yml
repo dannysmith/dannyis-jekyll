@@ -36,5 +36,16 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-responsive-image
 include:
   - _pages
+exclude:
+  - README.md
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1400
+  # base_path: ./uploads
+  save_to_source: false # Whether or not to save the generated assets into the source folder.
