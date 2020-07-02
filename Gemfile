@@ -14,7 +14,7 @@ gem "jekyll", "~> 4.1.0"
 
 # Plugins
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.13"
+  gem "jekyll-feed", "~> 0.14"
   gem 'jekyll-optional-front-matter', git: 'https://github.com/benbalter/jekyll-optional-front-matter.git'
   gem 'jekyll-seo-tag'
   gem 'jekyll-redirect-from'
