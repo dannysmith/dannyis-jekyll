@@ -17,7 +17,7 @@ If you don't want to read about my scrappy journey through this redesign, never 
 - [Website Redesign Part II - Principles, Goals and Stuff](/writing/website-redesign-ii)
 - [Website Redesign Part III - A Base to Start From](/writing/website-redesign-iii)
 - [Website Redesign Part IV - Pages and URLs](/writing/website-redesign-iv)
-- [Website Redesign Part V - Choosing a Typeface for Essa](/writing/website-redesign-v)
+- [Website Redesign Part V - Choosing a Typeface for Essays](/writing/website-redesign-v)
 - [Website Redesign Part VI - Adding a Typeface for Essays](/writing/website-redesign-vi)
 - [Website Redesign Part VII - Responsive Typography](/writing/website-redesign-vii)
 - [Website Redesign Part VIII - Adding some style](/writing/website-redesign-viii)
