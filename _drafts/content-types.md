@@ -22,7 +22,7 @@ Of course, this list might change over time.
 
 I've no intention of building out all these things right now, but since I know about them it's well to consider them as a whole while I'm thinking about design.
 
-The common first words in suggest some obvious core components:
+The common first words suggest some obvious core components:
 
 - Article
 - Link
