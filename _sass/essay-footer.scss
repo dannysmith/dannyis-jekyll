@@ -1,8 +1,8 @@
 .essay-footer {
   text-align: center;
-  padding: calc(1em * var(--base-lh));
-  padding-top: 0;
+  padding: 0 calc(1em * var(--base-lh));
   margin-top: calc(4em + 8vw);
+
   .more-writing {
     text-transform: uppercase;
     letter-spacing: 0.05ch;
@@ -30,12 +30,13 @@
     margin-top: calc(4em + 8vw);
   }
   .dannysmith {
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
     letter-spacing: 0.05ch;
     font-weight: 600;
     text-align: left;
     margin-right: calc(0.5em * var(--base-lh));
+    margin-bottom: calc(1em * var(--base-lh));
 
     &:before {
       content: ' ';
@@ -50,7 +51,10 @@
   }
 
   .footer-links {
-    display: inline;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: calc(1em * var(--base-lh));
+
     > li {
       display: inline;
     }
