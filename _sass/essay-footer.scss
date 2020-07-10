@@ -1,0 +1,75 @@
+.essay-footer {
+  text-align: center;
+  padding: calc(1em * var(--base-lh));
+  padding-top: 0;
+  margin-top: calc(4em + 8vw);
+  .more-writing {
+    text-transform: uppercase;
+    letter-spacing: 0.05ch;
+    font-weight: 600;
+
+    font-size: 1rem;
+    @media (min-width: $breakpoint-l) {
+      font-size: 1.2rem;
+    }
+
+    &:after {
+      content: '→';
+      margin-left: 0.5em;
+      opacity: 0.5;
+    }
+
+    &:hover,
+    &:active {
+      color: var(--color-red);
+    }
+  }
+
+  .bottom-row {
+    text-align: left;
+    margin-top: calc(4em + 8vw);
+  }
+  .dannysmith {
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 0.05ch;
+    font-weight: 600;
+    text-align: left;
+    margin-right: calc(0.5em * var(--base-lh));
+
+    &:before {
+      content: ' ';
+      display: inline-block;
+      width: calc(1em * var(--base-lh));
+      height: calc(1em * var(--base-lh));
+      border-radius: 50%;
+      background-color: var(--color-red);
+      transform: translateY(0.4em);
+      margin-right: calc(0.5em * var(--base-lh));
+    }
+  }
+
+  .footer-links {
+    display: inline;
+    > li {
+      display: inline;
+    }
+
+    > li:not(:last-child):after {
+      content: ' · ';
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    a:hover,
+    a:active {
+      color: red;
+    }
+  }
+
+  .copyright {
+    position: absolute;
+    right: calc(1em * var(--base-lh));
+    bottom: calc(1em * var(--base-lh));
+    writing-mode: vertical-rl;
+  }
+}

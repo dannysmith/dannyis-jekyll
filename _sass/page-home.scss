@@ -13,29 +13,6 @@ ul.display-list {
   }
 }
 
-ul.post-list {
-  display: inline-block;
-  padding: 1rem;
-  margin: 0;
-
-  li {
-    letter-spacing: 0.1ch;
-    padding: 0.3em 0 0.2em;
-    border-bottom: 2px solid var(--color-black);
-  }
-
-  a:hover {
-    color: var(--color-active-link-text);
-  }
-
-  .post-meta {
-    font-size: 0.65em;
-    text-transform: uppercase;
-    color: var(--color-red);
-    white-space: pre;
-  }
-}
-
 @media screen and (min-width: $breakpoint-xl) {
   .page-home {
     overflow-x: hidden;
@@ -49,8 +26,6 @@ ul.post-list {
     }
 
     .copyright {
-      font-size: 0.75rem;
-      text-transform: uppercase;
       position: fixed;
       right: 1rem;
       bottom: 0;

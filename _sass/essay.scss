@@ -17,9 +17,9 @@
   transition: font-size 0.1s;
 
   // Margin and Width
-  margin: 6em auto;
-  padding: 0 2em;
-  max-width: 41em;
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 41rem;
   @media (min-width: $breakpoint-l) {
     max-width: 48rem;
   }
@@ -52,13 +52,19 @@
   }
 
   > h1 {
-    font-size: 2rem;
-    @media (min-width: $breakpoint-m) {
-      font-size: 3rem;
-    }
+    font-size: 2em;
     font-weight: 500;
     font-variation-settings: 'opsz' 50;
     line-height: 1.25;
+    margin-top: calc(
+      1em * var(--base-lh)
+    ); // 2 x the basic line height because the font-size is 2em
+
+    &:first-of-type {
+      // Use padding, not margin so the body is not pushed down
+      margin-top: 0;
+      padding-top: calc(3em * var(--base-lh));
+    }
   }
 
   > h2 {

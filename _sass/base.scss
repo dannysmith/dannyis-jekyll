@@ -35,6 +35,9 @@ body {
   background-color: var(--color-background);
   color: var(--color-black);
 
+  // Use the body as the positioning parent for absolutely positioned elements.
+  position: relative;
+
   // Always fill the whole page
   min-height: 100vh;
 
@@ -176,4 +179,13 @@ code {
   // sso1 = sans-serif lowercase "r"
   // ss08 = Gaps in double/tripple equals
   // See https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets
+}
+
+.copyright {
+  font-size: 0.65rem;
+  @media (min-width: $breakpoint-m) {
+    font-size: 0.85rem;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.1ch;
 }
