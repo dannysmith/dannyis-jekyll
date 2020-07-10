@@ -17,9 +17,9 @@
   transition: font-size 0.1s;
 
   // Margin and Width
-  margin: 4rem auto;
-  padding: 0 2rem;
-  max-width: 41rem;
+  margin: 6em auto;
+  padding: 0 2em;
+  max-width: 41em;
   @media (min-width: $breakpoint-l) {
     max-width: 48rem;
   }

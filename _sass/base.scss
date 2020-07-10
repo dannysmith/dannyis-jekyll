@@ -132,18 +132,20 @@ mark {
   text-shadow: none;
 }
 
+a {
+  transition: all 0.25s;
+  color: inherit;
+}
+
 // Remove color and text-decoration from links with a class
 a[class] {
   text-decoration: inherit;
-  color: inherit;
 }
 
 // Links without a class get default styles
 a:not([class]) {
   text-decoration-color: var(--color-link-underline);
   text-decoration-thickness: 0.5px;
-  color: inherit;
-  transition: all 0.25s;
 
   @media (pointer: coarse) {
     text-decoration: none;
