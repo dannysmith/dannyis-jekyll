@@ -110,7 +110,7 @@ Before wrapping this up, I want to take a look at my current website with all th
 5. The homepage is less beautiful. Futura looks pretty bad at very large sizes and the whole thing feels slightly unpolished somehow. It lacks attention to the little details. Inauthentic.
 6. Futura is a lazy choice of typeface - I use it everywhere.
 7. The 404 page feels like an authentic representation of me[^1]. The homepage less so. This might have more to do with the content than the deign. I talk **a lot** and am generally friendly, and it feels a bit too minimalist and impersonal. It's somehow not goofy enough, where the 404 page is. At least the palette feels warm ad cosy.
-8. I'm going for a "swiss" vibe but there's no grid. I'm a massive nerd for orderly systems and grids, so this feels both inauthentic and like a missed opportunity to create some beauty through mathematics.
+8. I'm going for a kinda Bauhaus/Swiss vibe but there's no grid. I'm a massive nerd for orderly systems and grids, so this feels both inauthentic and like a missed opportunity to create some beauty through mathematics.
 
 Until next time.
 
