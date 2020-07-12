@@ -40,6 +40,7 @@ I've made notes in italics, since some of the items need a bit of explanation.
 
 ## Checklist 1: Ready to Merge
 
+{:.spaced-list}
 - **Kickoff done and requirements clear. Kickoff Document stored on Drive.** This is where we define our acceptance criteria and the scope of a new feature. Most non-trivial user stories require this, and the kickoff for an epic may spawn multiple, smaller, inter-dependant user stories. Bugfixes don't normally need a kickoff: it's down to the product manager and engineers to decide whether a work item needs one. The kickoff document is just the record of the discussion, and contains sufficient acceptance criteria to get the thing out.
 - **Implementation Plan written and reviewed.** This is something we're trying out. For non-trivial work items, engineers discuss and plan the technical solution. This usually involves whiteboarding and scribbling on bits of paper. The implementation plan is a summary of that thinking and is available for engineers from other teams to review. We're hoping this will help catch architectural and system design problems early. For technical improvements, this discussion has usually happened on the associated github issue already.
 - **DPIA Form Completed.** Do we need to do a Data Protection Impact Assessment?
@@ -60,6 +61,7 @@ I've made notes in italics, since some of the items need a bit of explanation.
 
 ## Checklist 2: Actually Done
 
+{:.spaced-list}
 - **Merged to master and feature branch deleted (mandatory).** The master branch is automatically deployed to our staging environment. [I wrote about our merge process earlier](https://medium.com/@dannysmith/synchronising-git-merges-with-slack-d905f7cbd55c).
 - **Related GitHub Issues closed or updated.**
 - **Sifter, Appsignal, and #tech-support issues closed 🏁.** We have a slack channel where people can raise technical issues. If a work item resolves or relates to one of these, it should be marked. This mostly applies to tiny bugfixes. Resolved bugs and exceptions should be closed in Sifter and Appsignal, respectively.
@@ -75,14 +77,6 @@ I've made notes in italics, since some of the items need a bit of explanation.
 
 You'll notice that some of the items are marked _mandatory_. **Those must be done for every single work item. No exceptions.** For a scrum purist, these are the only things that should appear in a Definition of Done. For us (right now), they are probably the least useful items on the list - they're all important enough that we'd remember to do them even if we didn't have a checklist!
 
-At the moment, we're deliberately keeping our mandatory items to a minimum, though we have discussed making more stuff mandatory. As we continue to evolve our process, I expect we'll add items to support our current engineering goals.
+At the moment, we're deliberately keeping our mandatory items to a minimum, though we have discussed making more stuff mandatory. As we continue to evolve our process, I expect we'll add items to support our current engineering goals. If we were focussed on improving our unit test coverage, we might include an item that says _"all new models and <abbr title="Plain Old Ruby Object">PORO</abbr>s must have an associated unit test"_. If we were focussed on improving the quality of our codebase, we might insist that "every pull request must improve the CodeClimate quality rating". We might even decide to [make proof of business value a prerequisite](https://medium.com/rootpath/delivering-business-value-with-kanban-and-validated-learning-55749daffecc) for "done".
 
-If we were focussed on improving our unit test coverage, we might include an item that says _"all new models and <abbr title="Plain Old Ruby Object">PORO</abbr>s must have an associated unit test"_.
-
-If we were focussed on improving the quality of our codebase, we might insist that "every pull request must improve the CodeClimate quality rating".
-
-We might even decide to [make proof of business value a prerequisite](https://medium.com/rootpath/delivering-business-value-with-kanban-and-validated-learning-55749daffecc) for "done".
-
-Currently though, we are focussed on building an awesome product, and while most pull requests include unit tests and quality improvements, **it doesn't make sense to _mandate_ that just now.**
-
-Our "Definition of Done" is designed to help us work better and faster, and will change and evolve alongside our business goals.
+Currently though, we are focussed on building an awesome product, and while most pull requests include unit tests and quality improvements, **it doesn't make sense to _mandate_ that just now.** Our "Definition of Done" is designed to help us work better and faster, and will change and evolve alongside our business goals.

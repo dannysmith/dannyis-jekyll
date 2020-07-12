@@ -27,4 +27,10 @@
     border: 2px solid rgba(0, 0, 0, 0.5);
     padding: 1em;
   }
+
+  .spaced-list {
+    li {
+      margin-top: calc(1em * var(--base-lh));
+    }
+  }
 }

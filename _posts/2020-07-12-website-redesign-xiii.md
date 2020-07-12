@@ -110,15 +110,16 @@ Grouping by **Human/System**, and by the four categories of content feels like a
 
 Simplicity is a the core value of this redesign and working through this process has helped me reach a few decisions about how to simplify things.
 
-1. I've no need for a **coaching** page right now. I can add this in the future.
-2. I still want a **hire me** page but it makes much more sense for this to live in notion. I'll forward `https://danny.is/lookingforwork` and `https://danny.is/hireme` to a public Notion page and be done with it.
-3. I won't show any actual videos on my site. Instead, I'll present any **video series'** as links to notion pages or YouTube playlists. I already have these set up.
-4. I won't have a page for my **music**. I'll just forward `https://danny.is/singing` to my dormant youtube channel. I will show this link on the homepage, though – singing is a big part of who I am.
-5. I won't worry about **notes** for the moment[^1]. They're an important part of how I'd like to share content but aren't a priority and Notion might well be the best place for them.
-6. I don't care about books at all right now. If I really want to write a book review I can just write an article.
-7. **Core design concepts should be expandable to accommodate the unknown**. For example, these would be bad ideas:
-   - Deciding I have three main types of content and basing my entire design concept on "threes".
-   - Having all my videos on youtube and Loom, and using their brand colours as core design elements.
+{:.spaced-list}
+- [x] I've no need for a **coaching** page right now. I can add this in the future.
+- [x] I still want a **hire me** page but it makes much more sense for this to live in notion. I'll forward `https://danny.is/lookingforwork` and `https://danny.is/hireme` to a public Notion page and be done with it.
+- [x] I won't show any actual videos on my site. Instead, I'll present any **video series'** as links to notion pages or YouTube playlists. I already have these set up.
+- [x] I won't have a page for my **music**. I'll just forward `https://danny.is/singing` to my dormant youtube channel. I will show this link on the homepage, though – singing is a big part of who I am.
+- [x] I won't worry about **notes** for the moment[^1]. They're an important part of how I'd like to share content but aren't a priority and Notion might well be the best place for them.
+- [x] I don't care about books at all right now. If I really want to write a book review I can just write an article.
+- [x] **Core design concepts should be expandable to accommodate the unknown**. For example, these would be bad ideas:
+  - Deciding I have three main types of content and basing my entire design concept on "threes".
+  - Having all my videos on youtube and Loom, and using their brand colours as core design elements.
 
 ## Wrapping up
 
