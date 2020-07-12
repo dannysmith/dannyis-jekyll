@@ -206,15 +206,15 @@
 
   .task-list-item {
     position: relative;
-    display: flex;
-    padding-left: 0;
+    padding-left: 1.4em;
   }
 
   .task-list-item-checkbox {
-    margin: 0.5em 0.7em 0 0;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
     height: 0.7em;
     width: 0.7em;
-    min-width: 0.7em; // To prevent flexbox shrinking the checkbox
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -233,8 +233,8 @@
     &:before {
       content: '\2713';
       position: absolute;
-      top: 0.645em;
-      left: 0.2em;
+      top: -0.25em;
+      left: 0.05em;
       font-size: 0.6em;
       font-weight: 600;
     }
