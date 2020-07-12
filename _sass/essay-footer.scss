@@ -16,7 +16,7 @@
     &:after {
       content: '→';
       margin-left: 0.5em;
-      opacity: 0.5;
+      color: rgba(0, 0, 0, 0.5);
     }
 
     &:hover,
@@ -39,6 +39,7 @@
     margin-bottom: calc(1em * var(--base-lh));
 
     &:before {
+      // Red circle
       content: ' ';
       display: inline-block;
       width: calc(1em * var(--base-lh));
