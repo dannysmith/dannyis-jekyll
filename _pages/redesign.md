@@ -24,3 +24,5 @@ If you don't want to read about my scrappy journey through this redesign, never 
 - [Website Redesign Part IX - Lists](/writing/website-redesign-ix)
 - [Website Redesign Part X - Links](/writing/website-redesign-x)
 - [Website Redesign Part XI - Code Blocks and Section Rule](/writing/website-redesign-xi)
+- [Website Redesign Part XII - Responsive Images](/writing/website-redesign-xii)
+- [Website Redesign Part XIII - Taking Stock of Content](/writing/website-redesign-xiii)
