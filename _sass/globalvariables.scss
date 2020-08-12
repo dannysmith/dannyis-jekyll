@@ -38,7 +38,10 @@ $breakpoint-xl: 75em;
   // ===================== Font Families =====================
 
   // UI Fonts
-  --font-ui: 'futura-pt', helvetica, sans-serif;
+  --font-ui: 'Jost', sans-serif;
+  @supports (font-variation-settings: normal) {
+    --font-ui: 'Jost Variable', sans-serif;
+  }
 
   //Essay Fonts
 
