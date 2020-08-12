@@ -5,6 +5,6 @@
 
 Jekyll::Hooks.register [:pages, :posts], :pre_render do |post, _payload|
   docExt = post.extname.tr('.', '')
-  post.content = post.content.gsub(/!\[(.*)\]\(([^\)]+)\)(?:{:([^}]+)})*/, '{% responsive_image path: \2 alt: "\1" %}{:\3}')
+  post.content = post.content.gsub(/!\[(.*)\]\(([^\)]+)\)(?:{:([^}]+)})*/, '{% responsive_image path: \2 alt: "\1" %}{:.image \3}')
   post.content = post.content.gsub 'path: /', 'path: ' # you can probably optimise this a bit
 end
