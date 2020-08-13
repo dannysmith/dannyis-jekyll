@@ -42,5 +42,5 @@ posts.each do |post|
 
   filename = post[:published_at_as_date].to_s + '-' + post[:slug]
 
-  File.open("../_posts/#{filename}.md, 'w') {|f| f.write(string) }
+  File.open("#{File.dirname(__FILE__)}/../_posts/#{filename}.md", 'w') {|f| f.write(string) }
 end
