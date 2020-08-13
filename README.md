@@ -139,3 +139,5 @@ If you are creating a page for the site, prefer HTML over markdown in most cases
 1. Add a title and `body-class: page-fishing` to the frontmatter. The `body-class` will be applied as a class to the `<body>` element so we can style the page.
 1. Create a `page-fishing.scss` file in `_sass` and include it in `main.scss`.
 1. Write your page-specific styles nested in a `.page-fishing` selector.
+
+If you apply a `body-class` of `no-drop-cap` to an essay, a drop cap won't be used. This is useful for essays with very short first paragraphs.

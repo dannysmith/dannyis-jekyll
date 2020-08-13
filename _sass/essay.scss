@@ -124,15 +124,6 @@
       }
     }
 
-    // Drop Cap
-    &:not(.callout):first-of-type::first-letter {
-      text-transform: uppercase;
-      float: left;
-      font-size: 4em;
-      line-height: 1;
-      padding-right: 0.4ch;
-    }
-
     // End mark
     &:last-of-type:after {
       display: inline-block;
@@ -370,4 +361,13 @@
       color: var(--color-active-link-text);
     }
   }
+}
+
+// Drop Cap
+body:not(.no-drop-cap) .essay > p:not(.callout):first-of-type::first-letter {
+  text-transform: uppercase;
+  float: left;
+  font-size: 4em;
+  line-height: 1;
+  padding-right: 0.4ch;
 }
