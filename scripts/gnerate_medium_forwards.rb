@@ -36,7 +36,7 @@ posts = Medium.posts(username: 'dannysmith', limit: 200)
 posts.each do |post|
   string = '---'
   string += "\ntitle: #{post[:title]}"
-  string += "\nredurect_to: '#{post[:url]}'"
+  string += "\nredirect_to: '#{post[:url]}'"
   string += "\nplatform: medium"
   string += "\n---\n"
 
