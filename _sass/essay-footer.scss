@@ -6,7 +6,7 @@
   .more-writing {
     text-transform: uppercase;
     letter-spacing: 0.05ch;
-    font-weight: 600;
+    font-weight: 700;
 
     font-size: 1rem;
     @media (min-width: $breakpoint-l) {
@@ -33,7 +33,7 @@
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 0.05ch;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     margin-right: calc(0.5em * var(--base-lh));
     margin-bottom: calc(1em * var(--base-lh));
