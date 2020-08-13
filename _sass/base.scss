@@ -35,6 +35,9 @@ body {
   background-color: var(--color-background);
   color: var(--color-black);
 
+  // Turn on single-storey `a` characters on Jost
+  font-feature-settings: 'ss01' on;
+
   // Use the body as the positioning parent for absolutely positioned elements.
   position: relative;
 
