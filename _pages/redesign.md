@@ -27,3 +27,5 @@ If you don't want to read about my scrappy journey through this redesign, never 
 - [Website Redesign Part XII - Responsive Images](/writing/website-redesign-xii)
 - [Website Redesign Part XIII - Taking Stock of Content](/writing/website-redesign-xiii)
 - [Website Redesign Part XIV - Stepping Into Figma](/writing/website-redesign-xiv)
+- [Website Redesign Part XV - A typographic system for the rest of this site](/writing/website-redesign-xv)
+- [Website Redesign Part XVI - A Header and Footer for Articles](/writing/website-redesign-xvi)
