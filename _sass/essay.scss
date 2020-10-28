@@ -1,5 +1,6 @@
 .essay {
   font-family: var(--font-essay);
+  color: var(--color-black);
 
   // Scale the type from 1rem (16px) at small viewports to 1.375rems (22px) at larger viewports.
   // Fallback for browsers that don't support the clamp syntax below
