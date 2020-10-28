@@ -6,24 +6,18 @@ layout: essay
 {:.callout}
 This is a [now page](https://nownownow.com/about). Thanks to [Derek Sivers](https://sivers.org/nowff) for the idea.
 
-I’m working as **Technology Director** at [RED Academy](https://redacademy.com/). I’m also **Curriculum Director for Technology** at RED.
-
-I’m also working with my friend Bruce to create a small design studio called **Tavern**. We’re doing branding and websites for small – mostly local – businesses.
-
-I also do a bit of consulting on remote work, leadership, process and learning with **Better at Work**.
+I spend most of my time working with the folks at [Delocate](http://delocate.co) to help people get better at remote work, but I also do a bit of consulting on leadership, learning design and [Notion](http://notion.so) stuff.
 
 ## Side Projects
 
-I’ve got a podcast in the works.
-
-I’m redoing this website.
+- I'm publishing a bunch of [short, practical remote working tips](/remote).
+- I have a tiny very-part-time agency called [Tavern](https://taverndesign.com/) where I occasionally work on brands and websites for local businesses with my friend Bruce.
+- I’m redoing this website.
 
 ## Living
 
-I’m still living in a little mews in Islington, North London.
-
-When I’m not having a barbecue with my neighbours I’m probably [at the pub](https://twitter.com/armssmyth).
+I live in a lovely little mews in Islington, North London. When I’m not having a barbecue with my neighbours I’m probably [at the pub](https://twitter.com/armssmyth).
 
 ---
 
-Updated on March 14th from Islington, London.
+Updated on Oct 28th from Islington, London.
