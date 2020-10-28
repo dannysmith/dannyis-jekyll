@@ -21,8 +21,9 @@ ul.display-list {
     h1 {
       position: relative;
       font-size: 16.8vw;
-      margin-top: -0.2em;
+      margin-top: -0.25em;
       z-index: 1;
+      pointer-events: none;
     }
 
     .copyright {
