@@ -1,39 +1,56 @@
 //   The code in this file is pretty messy and is just for getting the site live.
 
+.page-home {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: var(--color-cream);
+
+  h1 {
+    position: relative;
+    font-size: 16.8vw;
+    margin-top: -0.15em;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .copyright {
+    position: fixed;
+    right: 1rem;
+    bottom: 0;
+    transform-origin: top right;
+    transform: rotate(90deg);
+  }
+
+  .post-list {
+    margin-left: 1rem;
+    max-width: calc(100% - 4rem);
+  }
+}
+
 ul.display-list {
   display: inline-block;
   padding: 1rem;
+  margin-top: 3rem;
 
   li {
     text-transform: uppercase;
-    letter-spacing: 0.2ch;
+    letter-spacing: 0.1ch;
     list-style-type: none;
-    padding: 0.3em 0 0.2em;
+    padding: 0.31em 0 0.21em;
     border-bottom: 5px solid var(--color-red);
+
+    strong {
+      letter-spacing: 0.125ch;
+    }
+
+    a:hover {
+      color: var(--color-active-link-text);
+    }
   }
 }
 
 @media screen and (min-width: $breakpoint-xl) {
   .page-home {
-    overflow-x: hidden;
-    min-height: 100vh;
-
-    h1 {
-      position: relative;
-      font-size: 16.8vw;
-      margin-top: -0.25em;
-      z-index: 1;
-      pointer-events: none;
-    }
-
-    .copyright {
-      position: fixed;
-      right: 1rem;
-      bottom: 0;
-      transform-origin: top right;
-      transform: rotate(90deg);
-    }
-
     .post-list {
       transform-origin: bottom right;
       transform: rotate(45deg) translateX(calc(1rem + 30vw))
@@ -46,7 +63,7 @@ ul.display-list {
         z-index: -1;
         content: ' ';
         background: var(--color-red-trans50);
-        height: 1.5rem;
+        height: 1rem;
         width: 500%;
         margin-left: -100vw;
         margin-top: 1rem;

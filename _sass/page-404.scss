@@ -1,6 +1,7 @@
 .page-404 {
   position: relative;
   transform: rotate(-45deg) translateY(10vh) translateX(-10vh);
+  color: var(--color-true-black);
 
   h1 {
     font-size: 40vw;
@@ -12,7 +13,8 @@
     content: ' ';
     background: var(--color-red-trans50);
     height: 4vw;
-    margin-top: -9.5vw;
+    margin-top: -9.2vw;
+    width: 200%;
   }
 
   h2 {
@@ -29,7 +31,7 @@
   p {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0 0 0 40vw;
   }
 }
