@@ -6,15 +6,12 @@ body-class: page-writing
 <h1>Writing</h1>
 <ul class="post-list">
   {%- for post in site.posts -%}
-  <li>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    <span class="post-meta"
-      >{{ post.date | date: '%b %-d, %Y' }} {{post.platform}}</span
-    >
+  <li class="post {{post.platform}}">
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <span class="post-date">{{ post.date | date: '%-d %b %y' }}</span>
+      <h3 class="post-title">{{ post.title | escape }}</h3>
+      {% if post.platform %}<span class="post-platform">{{ post.platform | escape }}</span>{% endif %}
+    </a>
   </li>
   {%- endfor -%}
 </ul>

@@ -6,4 +6,64 @@
     text-transform: uppercase;
     text-align: right;
   }
+
+  .post-list {
+    margin: 1rem;
+    border-left: 1rem solid var(--color-red);
+    padding-left: 1rem;
+  }
+
+  .post-platform {
+    font-weight: 600;
+    letter-spacing: 0;
+    background: var(--color-light-gray);
+    color: var(--color-white);
+    padding: 0 5px;
+    border-radius: 2px;
+  }
+
+  .post-title {
+    font-weight: 400;
+  }
+
+  .post {
+    margin-bottom: 1rem;
+    border-bottom-color: var(--color-light-gray);
+  }
+
+  .post.delocate {
+    .post-link:hover {
+      color: var(--color-delocate-orange);
+    }
+
+    .post-platform {
+      background-color: var(--color-delocate-orange);
+    }
+  }
+
+  .post.medium {
+    .post-link:hover {
+      color: var(--color-medium-green);
+    }
+
+    .post-platform {
+      background-color: var(--color-medium-green);
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-m) {
+    .post-list {
+      margin-left: 3rem;
+    }
+
+    .post-date {
+      display: inline-block;
+      min-width: 5rem;
+    }
+
+    .post-title {
+      display: inline;
+      font-size: 1.25rem;
+    }
+  }
 }
