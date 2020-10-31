@@ -3,9 +3,7 @@
   {%- include head.html -%}
 
   <body class="{{page.body-class}}">
-    <nav>
-      <a class="home-link" href="/">danny<span class="dot">.</span>is</a>
-    </nav>
+    {%- include home-link.html -%}
     <main class="page-content" aria-label="Content">
       <article class="essay">
         <h1 role="heading" aria-level="1">
@@ -32,9 +30,7 @@
         </ul>
       </div>
 
-      <div class="copyright">
-        &copy; Danny Smith 2010-{{ site.time | date: '%Y' }}
-      </div>
+      {%- include copyright.html -%}
     </footer>
   </body>
 </html>

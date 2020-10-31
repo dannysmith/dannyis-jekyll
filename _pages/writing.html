@@ -3,7 +3,9 @@ title: Danny is Writing
 body-class: page-writing
 ---
 
+{%- include home-link.html -%}
 <h1>Writing</h1>
+
 <ul class="post-list">
   {%- for post in site.posts -%}
   <li class="post {{post.platform}}">
@@ -15,3 +17,5 @@ body-class: page-writing
   </li>
   {%- endfor -%}
 </ul>
+
+{%- include copyright.html -%}
