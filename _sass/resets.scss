@@ -1,0 +1,52 @@
+// ==========================================================================
+// Additional resets(on top of normalize.css)
+// ==========================================================================
+
+html {
+  box-sizing: border-box;
+}
+
+// Inherit box-sizing and remove all default top and bottom margins
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+//Remove default fieldset styles.
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// Allow only vertical resizing of textareas.
+textarea {
+  resize: vertical;
+}
+
+// Make images easier to work with
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+// Make images easier to work with
+iframe,
+video {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+// Inherit fonts for inputs and buttons
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

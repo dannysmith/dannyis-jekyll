@@ -52,11 +52,6 @@ $breakpoint-xl: 75em;
     --font-essay: 'Literata Variable', Georgia, 'Times New Roman', serif;
   }
 
-  // --font-essay: 'Lora', Georgia, 'Times New Roman', serif;
-  // @supports (font-variation-settings: normal) {
-  //   --font-essay: 'Lora Variable', Georgia, 'Times New Roman', serif;
-  // }
-
   // Code Fonts
   --font-code: 'Fira Code', 'Inconsolata', monospace;
   @supports (font-variation-settings: normal) {

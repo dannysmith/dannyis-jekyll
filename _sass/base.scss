@@ -1,10 +1,8 @@
 // ==========================================================================
-// Base styles: Global Basics and resets
+// Base styles: Global Basics
 // ==========================================================================
 
 html {
-  box-sizing: border-box;
-
   // Ensure Common ligs are always on
   font-variant-ligatures: common-ligatures;
 
@@ -16,17 +14,8 @@ html {
   // Smooth Scrolling
   scroll-behavior: smooth;
 
-  // Let the browser decide the best base font size
-  font-size: 100%;
-}
-
-// Inherit box-sizing and remove all default top and bottom margins
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin-top: 0;
-  margin-bottom: 0;
+  // Let the browser decide the best base font size, but make it a little smaller
+  font-size: 98%;
 }
 
 // Body default styles
@@ -45,19 +34,7 @@ body {
   min-height: 100vh;
 
   // Set the font-size in rems so it's inherited by all elements.
-  font-size: 0.98rem;
-}
-
-//Remove default fieldset styles.
-fieldset {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-// Allow only vertical resizing of textareas.
-textarea {
-  resize: vertical;
+  font-size: 1rem;
 }
 
 // Use fancy ligs in headings
@@ -82,30 +59,6 @@ ul[class],
 ol[class] {
   list-style: none;
   padding-left: 0;
-}
-
-// Make images easier to work with
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  display: block;
-}
-
-// Make images easier to work with
-iframe,
-video {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-}
-
-// Inherit fonts for inputs and buttons
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 // Remove all animations and transitions for people that prefer not to see them
@@ -137,6 +90,19 @@ mark {
   background: var(--color-yellow);
   text-shadow: none;
 }
+
+.copyright {
+  font-size: 0.65rem;
+  @media (min-width: $breakpoint-m) {
+    font-size: 0.85rem;
+  }
+  text-transform: uppercase;
+  letter-spacing: 0.1ch;
+}
+
+// ==========================================================================
+// Base styles: Links
+// ==========================================================================
 
 a {
   transition: all 0.25s;
@@ -182,13 +148,4 @@ code {
   // sso1 = sans-serif lowercase "r"
   // ss08 = Gaps in double/tripple equals
   // See https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets
-}
-
-.copyright {
-  font-size: 0.65rem;
-  @media (min-width: $breakpoint-m) {
-    font-size: 0.85rem;
-  }
-  text-transform: uppercase;
-  letter-spacing: 0.1ch;
 }
