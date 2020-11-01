@@ -91,15 +91,6 @@ mark {
   text-shadow: none;
 }
 
-.copyright {
-  font-size: 0.65rem;
-  @media (min-width: $breakpoint-m) {
-    font-size: 0.85rem;
-  }
-  text-transform: uppercase;
-  letter-spacing: 0.1ch;
-}
-
 // ==========================================================================
 // Base styles: Links
 // ==========================================================================

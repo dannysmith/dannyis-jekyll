@@ -1,14 +1,15 @@
 ---
 title: Danny Smith
+body-class: page-home
 ---
 
-<div class="vcard page-home" itemtype="http://schema.org/Person">
+<div class="vcard" itemtype="http://schema.org/Person">
   <h1 class="fn">
     <span itemprop="givenName">Danny</span>
     <span itemprop="familyName">Smith</span>
   </h1>
 
-  <ul class="display-list">
+  <ul class="nav-list">
     <li>
       <a class="nav-link" href="/writing"><strong>writing</strong></a>
     </li>
@@ -73,14 +74,14 @@ title: Danny Smith
 
   {%- include copyright.html -%}
 
-  <ul class="post-list">
+  <ul class="link-list">
     <h3>Recent Writing</h3>
     {%- for post in site.posts limit:8 -%}
     <li>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        <span class="post-title">{{ post.title | escape }}</span>
-        <span class="post-platform">{{ post.platform | escape }}</span>
-        <span class="post-date">{{ post.date | date: '%-d %b %y' }}</span>
+      <a class="link-anchor" href="{{ post.url | relative_url }}">
+        <span class="link-title">{{ post.title | escape }}</span>
+        <span class="link-platform">{{ post.platform | escape }}</span>
+        <span class="link-date">{{ post.date | date: '%-d %b %y' }}</span>
       </a>
     </li>
     {%- endfor -%}

@@ -1,6 +1,7 @@
 ---
 title: What I’m doing now
 layout: essay
+body-class: page-now
 ---
 
 {:.callout}

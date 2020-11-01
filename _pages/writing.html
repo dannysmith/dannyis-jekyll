@@ -6,13 +6,13 @@ body-class: page-writing
 {%- include home-link.html -%}
 <h1>Writing</h1>
 
-<ul class="post-list">
+<ul class="link-list">
   {%- for post in site.posts -%}
-  <li class="post {{post.platform}}">
-    <a class="post-link" href="{{ post.url | relative_url }}">
-      <span class="post-date">{{ post.date | date: '%-d %b %y' }}</span>
-      <h3 class="post-title">{{ post.title | escape }}</h3>
-      {% if post.platform %}<span class="post-platform">{{ post.platform | escape }}</span>{% endif %}
+  <li class="link {{post.platform}}">
+    <a class="link-anchor" href="{{ post.url | relative_url }}">
+      <span class="link-date">{{ post.date | date: '%-d %b %y' }}</span>
+      <h3 class="link-title">{{ post.title | escape }}</h3>
+      {% if post.platform %}<span class="link-platform">{{ post.platform | escape }}</span>{% endif %}
     </a>
   </li>
   {%- endfor -%}
