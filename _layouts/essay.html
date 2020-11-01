@@ -4,6 +4,7 @@
 
   <body class="page-essay {{page.body-class}}">
     {%- include home-link.html -%}
+
     <main class="page-content" aria-label="Content">
       <article class="essay">
         <h1 role="heading" aria-level="1">
@@ -12,6 +13,7 @@
         {{ content }}
       </article>
     </main>
+
     <footer class="essay-footer">
       <a href="/writing" class="more-writing">More Writing</a>
 
@@ -30,7 +32,9 @@
         </ul>
       </div>
 
-      {%- include copyright.html -%}
+      <div class="copyright">
+        <p>&copy; Danny Smith 2010-{{ site.time | date: '%Y' }}</p>
+      </div>
     </footer>
   </body>
 </html>
