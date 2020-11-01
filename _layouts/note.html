@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include head.html -%}
+
+  <body class="page-note {{page.body-class}}">
+    {%- include home-link.html -%}
+
+    <main class="content" aria-label="Content">
+      <article>
+        <h1 role="heading" aria-level="1">
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </h1>
+        {{ content }}
+      </article>
+    </main>
+
+    {%- include copyright.html -%}
+  </body>
+</html>

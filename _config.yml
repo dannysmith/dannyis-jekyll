@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  notes:
+    title: Notes
+    output: true
 defaults:
   - scope:
       path: ''
@@ -29,6 +32,12 @@ defaults:
       type: posts
     values:
       layout: essay
+  - scope:
+      path: _notes
+      type: notes
+    values:
+      layout: note
+      permalink: '/notes/:slug'
 email: hi@danny.is
 description: Danny Smith is a person. I need to complete this.
 plugins:
@@ -36,7 +45,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-responsive-image
+  # - jekyll-responsive-image
 include:
   - _pages
 exclude:
