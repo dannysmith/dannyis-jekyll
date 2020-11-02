@@ -11,7 +11,7 @@ exports.handler = (event, context, callback) => {
   const allRecords = []
   base('Pocket Items')
     .select({
-      maxRecords: 100,
+      maxRecords: 1000,
     })
     .eachPage(
       (records, fetchNextPage) => {
