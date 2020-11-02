@@ -1,0 +1,60 @@
+---
+title: Reading
+body-class: page-writing
+---
+{%- include home-link.html -%}
+<h1>Reading</h1>
+<p class="intro">I read a lot of articles. Mostly tech, but not always. This list is updated whenever I archive an article in <a
+    href="https://getpocket.com/@dannysmith">Pocket</a>.</p>
+
+<ul class="link-list" id="reading-list">
+  <li class="loading-indicator">Loading...</li>
+</ul>
+
+{%- include copyright.html -%}
+
+<script>
+  const createLink = (url, title, date, platform) => {
+    let titleNode = document.createElement("span")
+    titleNode.classList.add("link-title")
+    titleNode.appendChild(document.createTextNode(title))
+
+    let dateNode = document.createElement("span")
+    dateNode.classList.add("link-date")
+    let formattedDate = new Date(date).toDateString().split(' ')
+    formattedDate = formattedDate[2] + ' ' + formattedDate[1] + ' ' + formattedDate[3].substring(2)
+    dateNode.appendChild(document.createTextNode(formattedDate))
+
+    let platformNode = document.createElement("span")
+    platformNode.classList.add("link-platform")
+    platformNode.appendChild(document.createTextNode(platform))
+
+    let anchorNode = document.createElement("a")
+    anchorNode.classList.add("link-anchor")
+    anchorNode.href = url
+    anchorNode.appendChild(dateNode)
+    anchorNode.appendChild(titleNode)
+    anchorNode.appendChild(platformNode)
+
+    let liNode = document.createElement("li")
+    liNode.classList.add("link")
+    liNode.classList.add("link-" + platform)
+    liNode.appendChild(anchorNode)
+
+    document.querySelector('#reading-list').appendChild(liNode)
+  }
+
+  fetch('/.netlify/functions/pocketItems')
+      .then(response => response.json())
+      .then(data => data.forEach((item) => {
+        createLink(item.url, item.title, item.createdAt, 'pocket')
+      }))
+      .then(() => {
+        let loadingIndicator = document.querySelector(".loading-indicator")
+        loadingIndicator.parentNode.removeChild(loadingIndicator);
+      })
+      .catch(function (error) {
+        console.log(error)
+      });
+
+</script>
