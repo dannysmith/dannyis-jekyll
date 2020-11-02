@@ -1,39 +1,47 @@
-const fetch = require('node-fetch')
+const Airtable = require('airtable')
 
-exports.handler = async (event, context, callback) => {
-  const pass = (body) => {
-    let returnPayload = body.records.map(function(record) {
-      return {
-        id: record.id,
-        title: record.fields['Title'],
-        url: record.fields['URL'],
-        hasImage: false,
-        createdAt: record.createdTime,
-        type: 'mediumClap',
-      }
+Airtable.configure({
+  endpointUrl: 'https://api.airtable.com',
+  apiKey: process.env.AIRTABLE_API
+})
+const base = Airtable.base('app0sEvudHX6svP8C')
+
+// eslint-disable-next-line func-names
+exports.handler = (event, context, callback) => {
+  const allRecords = []
+  base('Medium Claps')
+    .select({
+      maxRecords: 100,
     })
-
-    callback(null, { statusCode: 200, body: JSON.stringify(returnPayload) })
-  }
-
-  try {
-    let response = await fetch(
-      'https://api.airtable.com/v0/app0sEvudHX6svP8C/Medium%20Claps',
-      {
-        method: 'GET',
-        headers: {
-          Authorization: `Bearer ${process.env.AIRTABLE_API}`,
-          'Content-Type': 'application/json',
-        },
+    .eachPage(
+      (records, fetchNextPage) => {
+        records.forEach((record) => {
+          allRecords.push({
+              id: record.id,
+              title: record.fields['Title'],
+              url: record.fields['URL'],
+              addedAt: Date.parse(record.fields['Recommended At'].split(' at ')[0]),
+              createdAt: Date.parse(record._rawJson.createdTime),
+              type: 'mediumClap',
+          })
+        })
+        fetchNextPage()
+      },
+      (err) => {
+        if (err) {
+          callback(err)
+        } else {
+          const body = JSON.stringify(allRecords.sort((a,b) => b.createdAt - a.createdAt))
+          const response = {
+            statusCode: 200,
+            body,
+            headers: {
+              'content-type': 'application/json',
+              'cache-control': 'Cache-Control: max-age=300, public'
+            }
+          }
+          callback(null, response)
+        }
       }
     )
-    let data = await response.json()
-    await pass(data)
-  } catch (err) {
-    let error = {
-      statusCode: err.statusCode || 500,
-      body: JSON.stringify({ error: err.message }),
-    }
-    await pass(error)
-  }
 }
