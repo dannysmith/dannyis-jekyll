@@ -45,7 +45,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-seo-tag
   - jekyll-redirect-from
-  # - jekyll-responsive-image
+  - jekyll-responsive-image
 include:
   - _pages
 exclude:
