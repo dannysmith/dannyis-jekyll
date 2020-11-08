@@ -274,16 +274,13 @@
 
   .callout {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 1em;
-    padding: calc((1em * var(--base-lh)) - 2px);
-    &:before {
-      content: '📌';
-      position: absolute;
-      top: 0;
-      left: 0.3em;
-      transform: translateY(-0.6em) rotate(-20deg);
-    }
+    // border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.1);
+    color: whte;
+    border-radius: 2px;
+    font-size: 0.8em;
+    padding: calc(1em * var(--base-lh));
+    border-left: solid red calc(0.5em * var(--base-lh));
   }
 
   hr {
