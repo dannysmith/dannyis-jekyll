@@ -1,0 +1,41 @@
+.layout-note {
+  .notes-header {
+    font-size: 32vw;
+    transform: translate(-0.1em, -0.25em);
+    text-transform: uppercase;
+    color: var(--color-light-gray);
+  }
+
+  .home-link {
+    top: 0;
+    left: 0;
+  }
+
+  .note-content {
+    position: relative; // For home link to be positioned absolutely
+    margin: 1rem;
+    max-width: 900px;
+    padding-top: 3rem;
+  }
+
+  .note-sidebar {
+    margin: 1rem;
+    border-top: 1rem solid var(--color-red);
+    padding-top: 1rem;
+  }
+
+  @media screen and (min-width: $breakpoint-l) {
+    .content {
+      display: grid;
+      min-height: 100vh;
+      grid-template-columns: 25vh auto 20rem;
+    }
+
+    .notes-header {
+      font-size: 31vh;
+      transform: rotate(90deg) translate(-1.25em, 0.25em);
+      transform-origin: bottom left;
+      position: fixed;
+    }
+  }
+}

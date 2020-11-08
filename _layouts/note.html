@@ -2,16 +2,38 @@
 <html lang="en">
   {%- include head.html -%}
 
-  <body class="page-note {{page.body-class}}">
-    {%- include home-link.html -%}
+  <body class="layout-note {{page.body-class}}">
 
     <main class="content" aria-label="Content">
-      <article>
-        <h1 role="heading" aria-level="1">
-          <a href="{{ page.url }}">{{ page.title }}</a>
-        </h1>
-        {{ content }}
+      <div>
+        <h2 class="notes-header">Notes</h2>
+      </div>
+
+      <article class="note-content">
+        {%- include home-link.html -%}
+        <div class="essay">
+          <h1 role="heading" aria-level="1">
+            <a href="{{ page.url }}">{{ page.title }}</a>
+          </h1>
+          {{ content }}
+        </div>
       </article>
+
+      <aside class="note-sidebar">
+        <h3>More Notes</h3>
+        <nav>
+          <ul class="link-list">
+            {% for note in site.notes %}
+            <li>
+              <a class="link-anchor" href="{{ note.url }}">
+                <span class="link-title">{{ note.title | escape }}</span>
+                <span class="link-date">{{ note.date | date: '%-d %b %y' }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </aside>
     </main>
 
     {%- include copyright.html -%}

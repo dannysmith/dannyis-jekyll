@@ -1,19 +1,7 @@
 ---
 title: Notes
-body-class: page-notes
+body-class: page-notes-index
+layout: note
 ---
-{%- include home-link.html -%}
-<h1>Notes</h1>
 
-<ul class="link-list">
-{% for note in site.notes %}
-  <li>
-    <a class="link-anchor" href="{{ note.url }}">
-      <span class="link-title">{{ note.title | escape }}</span>
-      <span class="link-date">{{ note.date | date: '%-d %b %y' }}</span>
-    </a>
-  </li>
-{% endfor %}
-</ul>
-
-{%- include copyright.html -%}
+<p>This is where I dump notes.</p>
