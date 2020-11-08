@@ -141,3 +141,5 @@ If you are creating a page for the site, prefer HTML over markdown in most cases
 1. Write your page-specific styles nested in a `.page-fishing` selector.
 
 If you apply a `body-class` of `no-drop-cap` to an essay, a drop cap won't be used. This is useful for essays with very short first paragraphs.
+
+Danny Smith
