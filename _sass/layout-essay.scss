@@ -1,2 +1,55 @@
 .layout-essay {
+  .essay {
+    // Margin and Width
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 41rem;
+    @media (min-width: $breakpoint-l) {
+      max-width: 48rem;
+    }
+
+    > h1:first-of-type {
+      // Use padding, not margin so the body is not pushed down
+      margin-top: 0;
+      padding-top: calc(3em * var(--base-lh));
+    }
+
+    // First Line
+    > p:not(.callout):first-of-type::first-line {
+      text-transform: lowercase;
+      -webkit-hyphens: none;
+      hyphens: none;
+      font-variant-caps: small-caps;
+      font-weight: 500;
+      @supports (font-variation-settings: normal) {
+        font-weight: 525;
+      }
+    }
+
+    // End mark
+    > p:last-of-type:after {
+      display: inline-block;
+      content: ' ';
+      -webkit-mask: url(../images/svg/end-mark.svg);
+      mask: url(../images/svg/end-mark.svg);
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-color: currentColor;
+      height: 0.65em;
+      width: 1em;
+      line-height: 0.5;
+      margin-left: 0.1em;
+    }
+  }
+}
+
+// Drop Cap
+body.layout-essay:not(.no-drop-cap)
+  .essay
+  > p:not(.callout):first-of-type::first-letter {
+  text-transform: uppercase;
+  float: left;
+  font-size: 4em;
+  line-height: 1;
+  padding-right: 0.4ch;
 }

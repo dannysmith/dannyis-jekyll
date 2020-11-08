@@ -17,14 +17,6 @@
   font-size: clamp(1rem, calc(0.6rem + 1vw), 1.375rem);
   transition: font-size 0.1s;
 
-  // Margin and Width
-  margin: 0 auto;
-  padding: 0 2rem;
-  max-width: 41rem;
-  @media (min-width: $breakpoint-l) {
-    max-width: 48rem;
-  }
-
   > * {
     line-height: var(--base-lh);
   }
@@ -60,12 +52,6 @@
     margin-top: calc(
       1em * var(--base-lh)
     ); // 2 x the basic line height because the font-size is 2em
-
-    &:first-of-type {
-      // Use padding, not margin so the body is not pushed down
-      margin-top: 0;
-      padding-top: calc(3em * var(--base-lh));
-    }
   }
 
   > h2 {
@@ -111,33 +97,6 @@
 
     &:first-of-type {
       margin-top: calc(2em * var(--base-lh));
-    }
-
-    // First Line
-    &:not(.callout):first-of-type::first-line {
-      text-transform: lowercase;
-      -webkit-hyphens: none;
-      hyphens: none;
-      font-variant-caps: small-caps;
-      font-weight: 500;
-      @supports (font-variation-settings: normal) {
-        font-weight: 525;
-      }
-    }
-
-    // End mark
-    &:last-of-type:after {
-      display: inline-block;
-      content: ' ';
-      -webkit-mask: url(../images/svg/end-mark.svg);
-      mask: url(../images/svg/end-mark.svg);
-      -webkit-mask-size: cover;
-      mask-size: cover;
-      background-color: currentColor;
-      height: 0.65em;
-      width: 1em;
-      line-height: 0.5;
-      margin-left: 0.1em;
     }
   }
 
@@ -362,13 +321,4 @@
       color: var(--color-active-link-text);
     }
   }
-}
-
-// Drop Cap
-body:not(.no-drop-cap) .essay > p:not(.callout):first-of-type::first-letter {
-  text-transform: uppercase;
-  float: left;
-  font-size: 4em;
-  line-height: 1;
-  padding-right: 0.4ch;
 }
