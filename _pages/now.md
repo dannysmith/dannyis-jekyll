@@ -5,7 +5,7 @@ body-class: page-now
 ---
 
 {:.callout}
-This is a [now page](https://nownownow.com/about). Thanks to [Derek Sivers](https://sivers.org/nowff) for the idea.
+This is a [**now page**](https://nownownow.com/about). Thanks to [Derek Sivers](https://sivers.org/nowff) for the idea.
 
 I spend most of my time working with the folks at [Delocate](http://delocate.co) to help people get better at remote work, but I also do a bit of consulting on leadership, learning design and [Notion](http://notion.so) stuff.
 
