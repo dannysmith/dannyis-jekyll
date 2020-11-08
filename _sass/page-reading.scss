@@ -1,4 +1,4 @@
-.page-writing {
+.page-reading {
   h1 {
     font-size: 14vw;
     transform: translateY(-0.3em);
@@ -8,13 +8,16 @@
     pointer-events: none;
   }
 
+  .intro {
+    text-align: right;
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+  }
+
   .link-list {
     margin: 1rem;
-    border-left: 1rem solid var(--color-red);
+    border-left: 1rem solid var(--color-black);
     padding-left: 1rem;
-
-    @media screen and (min-width: $breakpoint-m) {
-      margin-left: 3rem;
-    }
   }
 }

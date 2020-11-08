@@ -16,6 +16,87 @@
     font-size: 0.65em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
-    white-space: pre;
+  }
+}
+
+.link-list-full {
+  .link {
+    margin-bottom: 1rem;
+    border-bottom-color: var(--color-light-gray);
+  }
+
+  .link-anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .link-date {
+    padding-right: 1rem;
+    flex: 0 0 0;
+  }
+
+  .link-title {
+    font-weight: 400;
+    flex-grow: 1;
+  }
+
+  .link-platform {
+    flex-grow: 0;
+    font-weight: 600;
+    background: var(--color-light-gray);
+    color: var(--color-white);
+    padding: 3px 6px;
+    border-radius: 2px;
+  }
+
+  .link-date,
+  .link-title,
+  .link-platform {
+    margin-bottom: 0.25rem;
+  }
+
+  .link.link-delocate {
+    .link-anchor:hover {
+      color: var(--color-delocate-orange);
+    }
+
+    .link-platform {
+      background-color: var(--color-delocate-orange);
+    }
+  }
+
+  .link.link-medium {
+    .link-anchor:hover {
+      color: var(--color-medium-green);
+    }
+
+    .link-platform {
+      background-color: var(--color-medium-green);
+    }
+  }
+
+  .link.link-pocket {
+    .link-anchor:hover {
+      color: var(--color-pocket-red);
+    }
+
+    .link-platform {
+      background-color: var(--color-pocket-red);
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-m) {
+    .link-anchor {
+      flex-direction: row;
+    }
+
+    .link-title {
+      font-size: 1.25rem;
+    }
+
+    .link-date {
+      flex: 0 0 6rem;
+    }
   }
 }
