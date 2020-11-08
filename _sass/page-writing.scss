@@ -12,6 +12,7 @@
     margin: 1rem;
     border-left: 1rem solid var(--color-red);
     padding-left: 1rem;
+    max-width: calc(100% - 6rem);
 
     @media screen and (min-width: $breakpoint-m) {
       margin-left: 3rem;

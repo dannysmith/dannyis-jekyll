@@ -19,5 +19,6 @@
     margin: 1rem;
     border-left: 1rem solid var(--color-black);
     padding-left: 1rem;
+    max-width: calc(100% - 4rem);
   }
 }
