@@ -54,6 +54,11 @@ h5 {
   font-size: 1em;
 }
 
+// Add scroll padding to the top of all elements with an ID.
+[id] {
+  scroll-margin-top: 2ex;
+}
+
 // Remove list styles on ul, ol elements with a class attribute
 ul[class],
 ol[class] {
