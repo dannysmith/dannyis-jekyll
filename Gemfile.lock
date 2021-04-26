@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/benbalter/jekyll-optional-front-matter.git
-  revision: 86e4b53d52d7ec0b298ea5cfe941ba2d8d5ef3ae
+  revision: bad5da13a8085278adb482189fbe14b04e962d37
   specs:
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
@@ -19,7 +19,7 @@ GEM
     ffi (1.15.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
-    i18n (1.8.9)
+    i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.0)
       addressable (~> 2.4)
@@ -54,7 +54,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.5.0)
+    listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
