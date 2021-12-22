@@ -8,10 +8,10 @@
 ## Install and Run
 
 ```shell
-brew install imagemagick
+brew install imagemagick netlify
 bundle install
 
-bundle exec jekyll serve --drafts --livereload
+netlify dev
 ```
 
 ## Values
