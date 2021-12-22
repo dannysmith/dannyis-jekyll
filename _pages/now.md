@@ -16,7 +16,6 @@ I was previously working at [Delocate](http://delocate.co), helping people get b
 - I'm publishing a bunch of [short, practical remote working tips](/remote).
 - I'm was in the early stages of developing some paid courses on remote working, but this is kinda paused right now.
 - I’m slowly redoing this website. Also rather paused.
-- I have a tiny very-part-time agency called [Tavern](https://taverndesign.com/) where I occasionally work on brands and websites for local businesses with my friend Bruce.
 
 ## Living
 
