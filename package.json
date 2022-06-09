@@ -8,6 +8,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "airtable": "^0.10"
+    "airtable": "^0.11"
   }
 }
