@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "webrick" # See https://github.com/jekyll/jekyll/issues/8523
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.3.2"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
